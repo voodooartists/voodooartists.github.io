@@ -1,650 +1,246 @@
-<!-- Inliner Build Version 4380b7741bb759d6cb997545f3add21ad48f010b -->
-<!DOCTYPE html>
 <html>
+    
     <head>
-            <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
-            <title>Peacock Summer 2017</title>
-            <style type="text/css">
-            /* Fonts */
-            @font-face {
-                font-family: 'Space Mono'; font-style: normal; font-weight: 400; src: local('Space Mono'), local('SpaceMono-Regular'), url(https://fonts.gstatic.com/s/spacemono/v1/adVweg3BJhE6r8jYmXseHQzyDMXhdD8sAj6OAJTFsBI.woff2) format('woff2');
-            }
-            @font-face {
-                font-family: 'Space Mono'; font-style: normal; font-weight: 700; src: local('Space Mono Bold'), local('SpaceMono-Bold'), url(https://fonts.gstatic.com/s/spacemono/v1/vdpMRWfyjfCvDYTz00NEPGaVI6zN22yiurzcBKxPjFE.woff2) format('woff2');
-            }
-            @font-face {
-                font-family: 'Space Mono'; font-style: italic; font-weight: 400; src: local('Space Mono Italic'), local('SpaceMono-Italic'), url(https://fonts.gstatic.com/s/spacemono/v1/7xgIgvUEl9Gvhtf7tXsRzBampu5_7CjHW5spxoeN3Vs.woff2) format('woff2');
-            }
-            @font-face {
-                font-family: 'Space Mono'; font-style: italic; font-weight: 700; src: local('Space Mono Bold Italic'), local('SpaceMono-BoldItalic'), url(https://fonts.gstatic.com/s/spacemono/v1/y2NWQDXe2-qPj6a6rWkLc8hHwsiXhsDb0smKjAA7Bek.woff2) format('woff2');
-            }
-            @font-face {
-                font-family: 'Work Sans';font-style: normal;font-weight: 400;src: local('Work Sans'), local('WorkSans-Regular'), url(https://fonts.gstatic.com/s/worksans/v2/ElUAY9q6T0Ayx4zWzW63VJBw1xU1rKptJj_0jans920.woff2) format('woff2');
-            }
-            @font-face {
-                font-family: 'Work Sans'; font-style: normal; font-weight: 500; src: local('Work Sans Medium'), local('WorkSans-Medium'), url(https://fonts.gstatic.com/s/worksans/v2/Nbre-U_bp6Xktt8cpgwaJIjoYw3YTyktCCer_ilOlhE.woff2) format('woff2');
-            }
-            @font-face {
-                font-family: 'Work Sans';font-style: normal;font-weight: 600;src: local('Work Sans SemiBold'), local('WorkSans-SemiBold'), url(https://fonts.gstatic.com/s/worksans/v2/z9rX03Xuz9ZNHTMg1_ghGRampu5_7CjHW5spxoeN3Vs.woff2) format('woff2');
-            }
-            @font-face {
-                font-family: 'Work Sans'; font-style: normal; font-weight: 700; src: local('Work Sans Bold'), local('WorkSans-Bold'), url(https://fonts.gstatic.com/s/worksans/v2/4udXuXg54JlPEP5iKO5AmRampu5_7CjHW5spxoeN3Vs.woff2) format('woff2');
-            }
-            /* General */
-            body {margin:0;}
-            table {border-collapse: collapse;}
-            tr {padding:0;border-collapse: collapse;}
-            td {padding:0;border-collapse: collapse;}
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <title>La Ligne Directe du 21ème</title>
+        <style type="text/css">
+            table {border-collapse:collapse;}
+            td {padding:0;border-collapse:collapse;}
+            tr {padding:0;border-collapse:collapse;}
             img {display:block;}
+            
             /* Text */
-            a {text-decoration:none;}
-            p {color:#000;margin:0;}
-            /* Spec */
-            .mailjet-links {
-                font-family: 'Work Sans', Helvetica, Sans-sérif;
-                font-size: 10px;
-                text-align: center;
-                margin: 0;
-            }
-            .mailjet-links a {
-                color: #000;
-                text-decoration: underline;
-            }
-            .header {
-                margin-top:20px;
-            }
-            .header p {
-                font-family:'Work Sans', Helvetica, Sans-sérif;
-                font-size:12px;
-                font-weight:600;
-                letter-spacing:1px;
-            }
-            .header p a {
-                color:#000;
-            }
-            .container {
-                margin-top:50px;
-            }
-            .container-white {
-                margin-top:50px;
-                background-color:#efefef;
-            }
-            .container-black {
-                margin-top:50px;
-                background-color:#000;
-            }
-            .title {
-                font-family:'Space Mono', Helvetica, sans-serif;
-                font-size:48px;
-                line-height:50px;
-                color:#000;
-                font-style:italic;
-                font-weight:700;
-                text-align:left;
-            }
-            .title-2 {
-                font-family:'Space Mono', Helvetica, sans-serif;
-                font-size:35px;
-                line-height:50px;
-                color:#000;
-                font-style:italic;
-                font-weight:700;
-                text-align:left;
-            }
-            .subtitle, .description, .day, .line-up, .contact, .bookings-title {
-                margin-top:20px;
-            }
-            .links, .flyer, .warehouse, .artists {
-                margin-top:40px;
-            }
-            .subtitle {
-                background-color:#000;
-            }
-            .subtitle p {
-                font-family:'Work Sans', Helvetica, sans-serif;
-                font-size:30px;
-                line-height:30px;
-                color:#efefef;
-                font-style:italic;
-                font-weight:500;
-                text-align:left;
-            }
-            .description p {
-                font-family: 'Work Sans', Helvetica, Sans-sérif;
-                font-size:14px;
-                font-weight:400;
-                color:#000;
-                text-align:left;
-            }
-            .day p {
-                font-family:'Work Sans', Helvetica, sans-serif;
-                font-size:25px;
-                line-height:25px;
-                color:#000;
-                font-weight:500;
-                text-align:center;
-                border-top:2px solid #000;
-                border-bottom:2px solid #000;
-                padding: 5px 10px;
-            }
-            .line-up-title {
-                font-family:'Space Mono', Helvetica, sans-serif;
-                font-size:30px;
-                line-height:30px;
-                color:#000;
-                font-style:italic;
-                font-weight:700;
-                text-align:left;
-            }
-            .line-up-subtitle {
-                font-family:'Space Mono', Helvetica, sans-serif;
-                font-size:18px;
-                line-height:20px;
-                padding-left:2px;
-                color:#000;
-                font-style:italic;
-                font-weight:700;
-            }
-            .line-up-description {
-                font-family: 'Work Sans', Helvetica, Sans-sérif;
-                font-size:14px;
-                font-weight:400;
-                color:#000;
-                text-align:left;
-                padding-top:8px;
-            }
-            .bookings {
-                text-align:center;
-                margin-bottom:50px;
-            }
-            .bookings-title {
-                background-color:#efefef;
-            }
-            .bookings-title p {
-                font-family:'Work Sans', Helvetica, sans-serif;
-                font-size:30px;
-                line-height:30px;
-                color:#000;
-                font-style:italic;
-                font-weight:500;
-            }
-            .bookings-name p {
-                font-family:'Space Mono', Helvetica, Sans-serif;
-                font-size:35px;
-                line-height:35px;
-                font-weight:700;
-                font-style:italic;
-                color:#efefef;
-                padding-top:40px;
-            }
-            .bookings-contact p {
-                font-family:'Work Sans', Helvetica, Sans-serif;
-                font-size:22px;
-                font-weight:500;
-                color:#efefef;
-                padding-top:15px;
-            }
-            .bookings-contact a {
-                color:#efefef;
-                text-decoration:underline;
-            }
-            .footer {
-                text-align:center;
-                margin-top:120px;
-                margin-bottom:10px;
-            }
-            .footer-title {
-                font-family:'Work Sans', Helvetica, Sans-sérif;
-                font-size: 16px;
-                font-weight: 700;
-                text-transform:uppercase;
-                font-style:italic;
-                padding: 15px 0 10px 0;
-                color:#000;
-            }
-            .footer-description {
-                font-family:'Work Sans', Helvetica, Sans-sérif;
-                font-size: 14px;
-                font-weight: 700;
-                margin: 0;
-                color:#000;
-            }
-            .footer-links {
-                border-top:2px solid #000;
-                border-bottom:2px solid #000;
-                margin-bottom:10px;
-                margin-top:10px;
-            }
-            .footer-links p {
-                font-family:'Work Sans', Helvetica, Sans-sérif;
-                font-size:14px;
-                color:#000;
-                font-weight:700;
-                text-transform:uppercase;
-            }
-            .footer-links a {
-                color:#000;
-            }
-            </style>
+            a {text-decoration:none;color:#fff;}
+            p {margin:0;}
+        </style>
     </head>
-
-    <body style="background:url(http://imageshack.com/a/img924/7703/XbGPmk.jpg) top center repeat;">
-
-        <table align="center" width="600">
-            <tr>
-                <td>
-                    <table align="center">
-                        <tr>
-                            <td style="padding-top:5px;">
-                                <p align="center" class="mailjet-links"><a href="[[PERMALINK]]" target="_blank">Cliquez ici pour voir ce mail dans votre navigateur</a></p>
-                            </td>
-                        </tr>
-                    </table>
-
-                    <table align="center" width="600" class="header">
-                        <tr>
-                            <td>
-                                <table width="600">
-                                    <tr>
-                                        <td align="left">
-                                            <table>
-                                                <tr>
-                                                    <td>
-                                                        <img src="http://imageshack.com/a/img924/5218/1D3BpX.png" />
-                                                    </td>
-                                                </tr>
-                                            </table>
-                                        </td>
-                                        <td align="right">
-                                            <table>
-                                                <tr>
-                                                    <td>
-                                                        <p><a href="https://www.facebook.com/vdartists/" target="_blank">FACEBOOK</a></p>    
-                                                    </td>
-                                                    <td style="padding-left:10px;padding-right:10px;">
-                                                        <p><a href="https://twitter.com/voodoobookings" target="_blank">TWITTER</a></p>    
-                                                    </td>
-                                                    <td>
-                                                        <p><a href="mailto:micky@voodooartists.com">CONTACT</a></p>    
-                                                    </td>
-                                                </tr>
-                                            </table>
-                                        </td>
-                                    </tr>
-                                </table>
-                            </td>
-                        </tr>
-                    </table>
-
-                    <table align="center" width="560" class="container">
-                        <tr>
-                            <td>
-                                <table width="560">
-                                    <tr>
-                                        <td align="left">
-                                            <table>
-                                                <tr>
-                                                    <td>
-                                                        <img src="http://imageshack.com/a/img923/9868/Asm3PU.jpg" />
-                                                    </td>
-                                                </tr>
-                                            </table>
-                                        </td>
-                                        <td align="right">
-                                            <table>
-                                                <tr>
-                                                    <td>
-                                                        <p class="title">SUMMER 2017</p>
-                                                        <p class="title">EDITION !</p>
-                                                        <p class='title-2'>07 & 08 JUILLET</p>
-                                                    </td>
-                                                </tr>
-                                            </table>
-                                        </td>
-                                    </tr>
-                                </table>
-                            </td>
-                        </tr>
-                    </table>
-                    
-                    <table align="center" width="600" class="container-white">
-                        <tr>
-                            <td>
-                                <table align="center" class="subtitle" width="570">
-                                    <tr>
-                                        <td>
-                                            <table align="center" width="560" style="margin-top:5px;margin-bottom:5px;">
-                                                <tr>
-                                                    <td align="left" style="vertical-align:middle;">
-                                                        <p>#NEEDTODANCE</p>
-                                                    </td>
-                                                    <td align="right" style="vertical-align:middle;">
-                                                        <table>
-                                                            <tr>
-                                                                <td>
-                                                                    <a href="https://www.facebook.com/thepeacocksociety/" target="_blank"><img src="http://imageshack.com/a/img924/9775/1X7v1t.png" height="40"/></a>
-                                                                </td>
-                                                                <td style="padding-left:10px;">
-                                                                    <a href="https://twitter.com/peacocksociety" target="_blank"><img src="http://imageshack.com/a/img924/2538/HAvNed.png" height="40"/></a>
-                                                                </td>
-                                                                <td style="padding-left:10px;">
-                                                                    <a href="https://www.instagram.com/thepeacocksociety/" target="_blank"><img src="http://imageshack.com/a/img924/7171/1btMr9.png" height="40"/></a>
-                                                                </td>
-                                                                <td style="padding-left:10px;">
-                                                                    <a href="https://www.residentadvisor.net/event.aspx?952275" target="_blank"><img src="http://imageshack.com/a/img922/7553/Wz0bnW.png" height="40"/></a>
-                                                                </td>
-                                                            </tr>
-                                                        </table>
-                                                    </td>
-                                                </tr>
-                                            </table>
-                                        </td>
-                                    </tr>
-                                </table>
-                                <table align="center" class="description" width="560">
-                                    <tr>
-                                        <td>
-                                            <p>Ce week-end, <span style="font-weight:600">The Peacock Society</span> enfile ses habits d’été et ramène une fois encore la crème de la crème de la scène électronique dans son habituelle <span style="font-weight:600">warehouse du Parc Floral de Paris !</span></p>
-                                            <p style="margin-top:10px;">Un rendez-vous à ne manquer sous aucun prétexte divisé en <span style="font-weight:600">deux nuits</span>, vendredi et samedi, <span style="font-weight:600">trois scènes</span> et un <span style="font-weight:600">line-up exceptionnel de plus de 35 artistes</span>… dont <span style="font-weight:600">DJ AZF</span> et <span style="font-weight:600">Raheem Experience (LB aka LABAT, Neue Grafik & Mad Rey) live</span>, recrues Voodoo Artists <span style="font-weight:600">invitées du Resident Advisor Stage</span> le deuxième jour qui prendront la relève de <span style="font-weight:600">Simo Cell</span>, <span style="font-weight:600">The Pilotwings</span>, <span style="font-weight:600">The Hacker aka Amato</span>, <span style="font-weight:600">Chris Liebing</span> et des <span style="font-weight:600">Agents Of Time</span>, <span style="font-weight:600">programmés l’hiver dernier</span> lors d’une édition déjà mémorable.</p>
-                                            <p style="margin-top:10px;"><span style="font-weight:600">BE THERE OR BE SQUARE !</span></p>        
-                                        </td>
-                                    </tr>
-                                </table>
-                                <table align="center" class="links" width="560">
-                                    <tr>
-                                        <td>
-                                            <table align="center">
-                                                <tr>
-                                                    <td style="padding-right:10px;">
-                                                        <a href="https://www.facebook.com/events/267503117022192/" target="_blank"><img src="http://imageshack.com/a/img924/387/bBpkl5.jpg" /></a>
-                                                    </td>
-                                                    <td style="padding-left:10px;">
-                                                        <a href="http://www.digitick.com/ext/billetterie5/?site=thepeacocksociety" target="_blank"><img src="http://imageshack.com/a/img923/1241/WbRvqm.jpg" /></a>
-                                                    </td>
-                                                </tr>
-                                            </table>
-                                        </td>
-                                    </tr>
-                                </table>
-                                <table align='center' class='warehouse'>
-                                    <tr>
-                                        <td>
-                                            <img src='http://imageshack.com/a/img923/1038/FExlXw.gif' /> 
-                                        </td>
-                                    </tr>
-                                </table>
-                            </td>
-                        </tr>
-                    </table>
-                    
-                    <table align="center" width="600" class="container-white">
-                        <tr>
-                            <td>
-                                <table align="center" width="570" class='subtitle'>
-                                    <tr>
-                                        <td>
-                                            <table align="center" width="560" style="margin-top:10px;margin-bottom:10px;">
-                                                <tr>
-                                                    <td>
-                                                        <p>WHO'S IN ?!</p>
-                                                    </td>
-                                                </tr>
-                                            </table>
-                                        </td>
-                                    </tr>
-                                </table>
-                                <table align="center" class="day">
-                                    <tr>
-                                        <td>
-                                            <p>SAMEDI 08.07<br>
-                                               RESIDENT ADVISOR STAGE</p>
-                                        </td>
-                                    </tr>
-                                </table>
-                                <table align="center" width="560" class='line-up'>
-                                    <tr>
-                                        <td align="left" width="280" style="vertical-align:top;">
-                                            <table>
-                                                <tr>
-                                                    <td>
-                                                        <img src='http://imageshack.com/a/img922/9397/d5pZ66.jpg' />
-                                                    </td>
-                                                </tr>
-                                            </table>
-                                        </td>
-                                        <td align="right" width="260" style="text-align:left;padding-left:20px;vertical-align:top;">
-                                            <table width="260">
-                                                <tr>
-                                                    <td align='left'>
-                                                        <table>
-                                                            <tr>
-                                                                <td>
-                                                                    <p class="line-up-title">DJ AZF</p>
-                                                                </td>
-                                                            </tr>
-                                                        </table>
-                                                    </td>
-                                                    <td align="right" style="vertical-align:middle;">
-                                                        <table>
-                                                            <tr>
-                                                                <td>
-                                                                    <a href="https://www.facebook.com/djazf/" target="_blank"><img src="http://imageshack.com/a/img922/8388/LTnPEz.png" height="32"/></a>
-                                                                </td>
-                                                                <td style="padding-left:5px;">
-                                                                    <a href="https://soundcloud.com/azf-1er" target="_blank"><img src="http://imageshack.com/a/img922/6681/8qXz9T.png" height="32"/></a>
-                                                                </td>
-                                                                <td style="padding-left:5px;">
-                                                                    <a href="https://twitter.com/azf__" target="_blank"><img src="http://imageshack.com/a/img923/8022/Rwzop5.png" height="32"/></a>
-                                                                </td>
-                                                            </tr>
-                                                        </table>
-                                                    </td>
-                                                </tr>
-                                            </table>
-                                            <table>
-                                                <tr>
-                                                    <td>
-                                                        <p class="line-up-description">Avec une vision de la techno à son image, sans barrière ni compromis, la parisienne s'est taillée une place de choix dans le paysage électronique français...
-                                                        Voir un peu plus puisqu'elle s'est récemment illustrée en contrées anglosaxonnes avec le 153ème podcast Crack Magazine ! Une première qui fait suite à ce set enregistré au Badaboum pendant l'avant-dernier Nova Mix Club de la saison !</p>
-                                                    </td>
-                                                </tr>
-                                            </table>
-                                            <table width="260" style='margin-top:10px;'>
-                                                <tr>
-                                                    <td align='left'>
-                                                        <a href='http://crackmagazine.net/audio/mixprofile/azf/' target='_blank'><img src='http://imageshack.com/a/img923/5813/xv7inu.jpg' /></a>
-                                                    </td>
-                                                    <td align='right'>
-                                                        <a href='https://soundcloud.com/azf-1er/nova-mix-club-02062017' target='_blank'><img src='http://imageshack.com/a/img922/1308/pvjwLp.jpg' /></a>
-                                                    </td>
-                                                </tr>
-                                            </table>
-                                        </td>
-                                    </tr>
-                                </table>
-                                <table align="center" width="560" class='line-up'>
-                                    <tr>
-                                        <td align="left">
-                                            <table>
-                                                <tr>
-                                                    <td>
-                                                        <img src='http://imageshack.com/a/img922/1767/AkmeAL.jpg' />
-                                                    </td>
-                                                </tr>
-                                            </table>
-                                        </td>
-                                        <td align="right" width="260" style="text-align:left;padding-left:20px;vertical-align:top;">
-                                            <table width="260">
-                                                <tr>
-                                                    <td align='left'>
-                                                        <table>
-                                                            <tr>
-                                                                <td>
-                                                                    <table>
-                                                                        <tr>
-                                                                            <td>
-                                                                                <p class="line-up-title">RAHEEM</p>
-                                                                            </td>
-                                                                        </tr>
-                                                                    </table>
-                                                                    <table>
-                                                                        <tr>
-                                                                            <td style='vertical-align:top'>
-                                                                                <p class="line-up-title">EXPERIENCE</p>
-                                                                            </td>
-                                                                            <td style='vertical-align:top'>
-                                                                                <p class="line-up-subtitle">LIVE</p>
-                                                                            </td>
-                                                                        </tr>
-                                                                    </table>
-                                                                </td>
-                                                            </tr>
-                                                        </table>
-                                                    </td>
-                                                </tr>
-                                            </table>
-                                            <table>
-                                                <tr>
-                                                    <td>
-                                                        <p class="line-up-description">LB aka LABAT, Neue Grafik & Mad Rey aka Raheem Experience aka le trio le plus hip-hop de la house FR selon Sourdoreille est de retour à Paris, gonflés à bloc après des passages aux Nuits Sonores (filmé par Arte) et au B:ON AIR. Une dernière étape avant un retour à la prod et la sortie d'un disque à la fin de l'année !</p>
-                                                    </td>
-                                                </tr>
-                                            </table>
-                                            <table width="260" style='margin-top:10px;'>
-                                                <tr>
-                                                    <td align='left'>
-                                                        <a href='http://concert.arte.tv/fr/raheem-experience-nuits-sonores' target='_blank'><img src='http://imageshack.com/a/img922/1471/av3WPB.jpg' /></a>
-                                                    </td>
-                                                    <td align='right'>
-                                                        <a href='http://sourdoreille.net/raheem-experience-on-est-un-peu-le-groupe-de-rap-de-la-house/' target='_blank'><img src='http://imageshack.com/a/img923/2310/v6orBl.jpg' /></a>
-                                                    </td>
-                                                </tr>
-                                            </table>
-                                        </td>
-                                    </tr>
-                                </table>
-                                <table align="center" class="flyer">
-                                    <tr>
-                                        <td>
-                                            <img src="http://imageshack.com/a/img924/200/ST1Uq2.png" />
-                                        </td>
-                                    </tr>
-                                </table>
-                            </td>
-                        </tr>
-                    </table>
-
-                    <table align="center" class='container-black' width='400'>
-                        <tr>
-                            <td>
-                                <table align="center" class='bookings'>
-                                    <tr>
-                                        <td>
-                                            <table align="center" class='bookings-title' width='360'>
-                                                <tr>
-                                                    <td>
-                                                        <table align='center' style="margin-top:10px;margin-bottom:10px;">
-                                                            <tr>
-                                                                <td>
-                                                                    <p>BOOKINGS ENQUIRIES</p>
-                                                                </td>
-                                                            </tr>
-                                                        </table>
-                                                    </td>
-                                                </tr>
-                                            </table>
-                                            <table align="center" class='bookings-name'>
-                                                <tr>
-                                                    <td>
-                                                        <p>DJ AZF</p>
-                                                    </td>
-                                                </tr>
-                                            </table>
-                                            <table align='center' class='bookings-contact'>
-                                                <tr>
-                                                    <td>
-                                                        <p><a href="mailto:micky@voodooartists.com">micky@voodooartists.com</a></p>
-                                                    </td>
-                                                </tr>
-                                            </table>
-                                            <table align="center" class='bookings-name'>
-                                                <tr>
-                                                    <td>
-                                                        <p>RAHEEM<br>EXPERIENCE</p>
-                                                    </td>
-                                                </tr>
-                                            </table>
-                                            <table align='center' class='bookings-contact'>
-                                                <tr>
-                                                    <td>
-                                                        <p><a href="mailto:marc@voodoobookings.com">marc@voodoobookings.com</a></p>
-                                                    </td>
-                                                </tr>
-                                            </table>
-                                        </td>
-                                    </tr>
-                                </table>
-                            </td>
-                        </tr>
-                    </table>
-
-                </td>
-            </tr>
-        </table>
-
+    
+    <body style="background-color:#fff;">
         
-        <table align='center' class='footer' width='600'>
-            <tr>
-                <td>
-                    <table align="center">
-                        <tr>
-                            <td>
-                                <img src="http://imageshack.com/a/img924/5218/1D3BpX.png" />
-                            </td>
-                        </tr>
-                    </table>
-                    <table align="center" width='590'>
-                        <tr>
-                            <td>
-                                <p class='footer-title'>Worldwide</p>
-                                <p class='footer-description'>DJ AZF - D.K. - Epsilove - Geena - Judaah<br>
-                                    J-Zbel - LB aka LABAT - Nathan Melja - Neue Grafik - Puzupuzu<br>
-                                    Raheem Experience - SAMA' - Simo Cell - Soft War - The Pilotwings</p>
-                            </td>
-                        </tr>
-                    </table>
-                    <table align="center" width='590'>
-                        <tr>
-                            <td>
-                                <p class='footer-title'>FRANCE</p>
-                                <p class='footer-description'>Agents Of Time - Audion - Clouds - CW/A - Christian Löffler - DJ Tennis<br>
-                                    Greg Beato - Job Jobse - Low Jack - Makam - Matthew Dear - Mind Against<br>
-                                    Randomer - Shanti Celeste - Tale Of Us - Valentino Mora - Zaltan</p>
-                            </td>
-                        </tr>
-                    </table>
-                    <table align="center" width="580" class='footer-links'>
-                        <tr>
-                            <td>
-                                <table align="center" style="margin-top:5px;margin-bottom:5px;">
-                                    <tr>
-                                        <td>
-                                            <p><a href="https://www.facebook.com/vdartists/" target="_blank">FACEBOOK</a> - <a href="https://twitter.com/voodoobookings" target="_blank">TWITTER</a> - <a href="mailto:micky@voodooartists.com">CONTACT</a></p>
-                                        </td>
-                                    </tr>
-                                </table>
-                            </td>
-                        </tr>
-                    </table>
-                </td>
-            </tr>
-        </table>
         <table align="center">
             <tr>
-                <td style='padding-bottom:5px;'>
-                    <p class="mailjet-links"><a href="[[UNSUB_LINK_FR]]">Désinscription</a></p>
+                <td>
+                    <p style="font-family:Arial, Sans-sérif;font-weight:400;font-size:10px;padding-bottom:5px;text-align:center;"><a href="[MIRROR]" style="color:#000;text-decoration:underline;">Cliquez-ici pour ouvrir ce mail dans votre navigateur</a></p>
+                </td>
+            </tr>                                  
+        </table>
+        
+        <table align="center" class="wrapper" width="600">
+            <tr>
+                <td>
+
+                    <table width="600" style="margin-top:25px;">
+                        <tr>
+                            <td style="padding-bottom:15px;" align='left'>
+                                <table>
+                                    <tr>
+                                        <td>
+                                             <img src="http://imageshack.com/a/img923/7792/ujQ2R2.png" height='60'/>  
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+                            <td style="padding-bottom:15px;" align='right'>
+                                <table>
+                                    <tr>
+                                        <td>
+                                            <a href="https://www.instagram.com/75021paris/" target="_blank" style="color:#000;"><img src='http://imageshack.com/a/img923/5285/YyYN0U.png' height='26'/></a>    
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                    </table>
+                    
+                    <table align='center' style='margin-top:25px;'>
+                        <tr>
+                            <td>
+                                <p style="font-family:Arial, Sans-sérif;font-weight:400;font-size:18px;padding-bottom:10px;">Saison 5, la suite !!</p>
+                                <p style="font-family:Arial, Sans-sérif;font-weight:400;font-size:14px;padding-bottom:10px;">On commence par cette <b>21ème du 21ème</b> le 29 Juillet à La Station où l'on célèbrera notre numéro fétiche, celui de notre arrondissement éphémère qui marque notre volonté depuis maintenant 20 épisodes de vous faire danser de l’autre côté du périph'.
+                                    <br>Les pointures du jour : un membre de la posse lyonnaise slash record store Groovedge, un néerlandais zinzin d'edit Italo Synth-wave, une formation live placée sous l'étendard D.KO et un petit prince berlinois du lo-fi pour la grande scène... Tandis que côté High Bass Sound System, on compte sur un résident Rinse France aussi à l'aise en house qu'en arabian music, un b2b 100% Cergy Bass, un lisboète de la famille Principe Discos et un entertainer made in Midi Deux. Les styles vont se croiser !</p>
+                                <p style="font-family:Arial, Sans-sérif;font-weight:400;font-size:14px;padding-bottom:10px;">On enchaîne le 12 Août sur nos <b>Cinq Ans</b> à Bobigny dans le théâtre du Port de Loisirs de l'Été du Canal, spot open-air et gratuit au bord de l'Ourcq !!<br>
+                                Entre un open-air grandiose, trois scènes à notre disposition et une croisière musicale permettant d’accéder au lieu à ceux qui le souhaitent, on vous a concocté un all day long de haut niveau for free :)</p>
+                                <p style="font-family:Arial, Sans-sérif;font-weight:400;font-size:14px;padding-bottom:25px;">Closing de l'été le 09 septembre !</p>
+                            </td>
+                        </tr>
+                    </table>
+                    
+                    <table align="center" width="600" style="margin-top:25px;background-color:#8d1c22;">
+                        <tr>
+                            <td width="295">
+                                <table style="margin:10px;">
+                                    <tr>
+                                        <td>
+                                            <img src="http://imageshack.com/a/img923/7924/yCkpei.jpg" />
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+                            <td>
+                                <table>
+                                    <tr>
+                                        <td>
+                                            <p style="font-family:Arial, Sans-sérif;font-weight:400;font-size:18px;font-style:italic;color:#fff;">La 21ème // 29 Juillet - La Station</p>
+                                        </td>
+                                    </tr>
+                                </table>
+                                <table style="margin-top:10px;">
+                                    <tr>
+                                        <td>
+                                            <p style="font-family:Arial, Sans-sérif;font-weight:400;font-size:16px;font-style:italic;color:#fff;text-decoration:underline;">Line-up :</p>
+                                        </td>
+                                    </tr>
+                                </table>
+                                <table style="margin-top:10px;">
+                                    <tr>
+                                        <td>
+                                            <p style="font-family:Arial, Sans-sérif;font-weight:400;font-size:16px;color:#fff;">- Grande Scène</p>
+                                        </td>
+                                    </tr>
+                                </table>
+                                <table style="margin-top:5px;">
+                                    <tr>
+                                        <td>
+                                            <p style="font-family:Arial, Sans-sérif;font-weight:400;font-size:16px;font-style:italic;color:#fff;">Sentiments
+                                                <br>David Vunk
+                                                <br>Rag Dabons (live)
+                                                <br>Privacy</p>
+                                        </td>
+                                    </tr>
+                                </table>
+                                <table style="margin-top:10px;">
+                                    <tr>
+                                        <td>
+                                            <p style="font-family:Arial, Sans-sérif;font-weight:400;font-size:16px;color:#fff;">- Sound System</p>
+                                        </td>
+                                    </tr>
+                                </table>
+                                <table style="margin-top:5px;">
+                                    <tr>
+                                        <td>
+                                            <p style="font-family:Arial, Sans-sérif;font-weight:400;font-size:16px;font-style:italic;color:#fff;">Hadj Sameer
+                                                <br>Bamao Yendé b2b Fatal Walima
+                                                <br>DJ Maboku
+                                                <br>Calcuta</p>
+                                        </td>
+                                    </tr>
+                                </table>
+                                <table width="120" height="28" style="background-color:#fff;text-align:center;margin-top:20px;">
+                                    <tr>
+                                        <td>
+                                            <p style="font-family:Arial, Sans-sérif;font-weight:400;font-size:18px;font-style:italic;"><a href="https://www.facebook.com/events/1871583333168121/" target="_blank" style="color:#8d1c22;">EVENT</a></p>
+                                        </td>
+                                    </tr>
+                                </table>
+                                <table width="120" height="28" style="background-color:#fff;text-align:center;margin-top:5px;">
+                                    <tr>
+                                        <td>
+                                            <p style="font-family:Arial, Sans-sérif;font-weight:400;font-size:18px;font-style:italic;"><a href="https://www.yesgolive.com/station/la-21eme-75021" target="_blank" style="color:#8d1c22;">TICKETS</a></p>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                    </table>
+                    
+                    <table align="center" width="600" style="margin-top:25px;background-color:#b07b6b;">
+                        <tr>
+                            <td width="295">
+                                <table style="margin:10px;">
+                                    <tr>
+                                        <td>
+                                            <img src="http://imageshack.com/a/img922/3867/hGOvAJ.jpg" />
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+                            <td>
+                                <table>
+                                    <tr>
+                                        <td>
+                                            <p style="font-family:Arial, Sans-sérif;font-weight:400;font-size:18px;font-style:italic;color:#fff;">5 Ans // 12 Août - Port de Loisirs de l'Été du Canal</p>
+                                        </td>
+                                    </tr>
+                                </table>
+                                <table style="margin-top:10px;">
+                                    <tr>
+                                        <td>
+                                            <p style="font-family:Arial, Sans-sérif;font-weight:400;font-size:16px;font-style:italic;color:#fff;text-transform:uppercase;">Bobigny, open-air, gratuit</p>
+                                        </td>
+                                    </tr>
+                                </table>
+                                <table style="margin-top:10px;">
+                                    <tr>
+                                        <td>
+                                            <p style="font-family:Arial, Sans-sérif;font-weight:400;font-size:16px;font-style:italic;color:#fff;text-decoration:underline;">Line-up :</p>
+                                        </td>
+                                    </tr>
+                                </table>
+                                <table style="margin-top:5px;">
+                                    <tr>
+                                        <td>
+                                            <p style="font-family:Arial, Sans-sérif;font-weight:400;font-size:16px;font-style:italic;color:#fff;">Sentiments
+                                                <br>Rroxymore
+                                                <br>Lord Of The Isles
+                                                <br>Puzupuzu (live)
+                                                <br>LB aka LABAT b2b ****
+                                                <br>Donarra (live)
+                                                <br>Keumel</p>
+                                        </td>
+                                    </tr>
+                                </table>
+                                <table width="120" height="28" style="background-color:#fff;text-align:center;margin-top:20px;">
+                                    <tr>
+                                        <td>
+                                            <p style="font-family:Arial, Sans-sérif;font-weight:400;font-size:18px;font-style:italic;"><a href="https://www.facebook.com/events/1884104371916065/" target="_blank" style="color:#b07b6b;">EVENT</a></p>
+                                        </td>
+                                    </tr>
+                                </table>
+                                <table width="120" height="28" style="border:2px solid #fff;;text-align:center;margin-top:5px;">
+                                    <tr>
+                                        <td>
+                                            <p style="font-family:Arial, Sans-sérif;font-weight:400;font-size:18px;font-style:italic;color:#fff;">FREE</p>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                    </table>
+                    
+                    <table width='600' align='center' style='margin-top:50px;'>
+                        <tr>
+                            <td>
+                                <table>
+                                    <tr>
+                                        <td>
+                                            <a href='https://www.facebook.com/media/set/?set=a.800865653407793.1073741832.125580827602949&type=1&l=6800cfd397' target='_blank'><img src='http://imageshack.com/a/img924/3460/dPicft.gif' /></a>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                    </table>
+                    
+                    <table align='center' style='margin-top:80px;'>
+                        <tr>
+                            <td>
+                                <img src="http://imageshack.com/a/img923/9159/hGxhQ3.png" height='30'/>
+                            </td>
+                        </tr>
+                    </table>
+
                 </td>
             </tr>
         </table>
+        
+        <table align="center">
+            <tr>
+                <td style="padding-top:20px;">
+                    <p style="font-family:'Apercu', Helvetica, Sans-sérif;font-size:10px;font-weight:400;padding-bottom:5px;text-align:center;"><a style="text-decoration:underline;color:#000;" href="[UNSUBSCRIBE]">Cliquez-ici pour vous désabonner</a></p>                    
+                </td>
+            </tr>
+        </table>
+        
     </body>
+
 </html>
