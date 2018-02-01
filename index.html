@@ -3,7 +3,7 @@
 <html>
     <head>
         <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
-        <title>WELCOME TOO SMOOTH CHRIST</title>
+        <title>QUI EMBROUILLE QUI</title>
         <style type="text/css">
         /* Fonts */
         @font-face {
@@ -30,13 +30,14 @@
         @font-face {
             font-family: 'Work Sans'; font-style: normal; font-weight: 700; src: local('Work Sans Bold'), local('WorkSans-Bold'), url(https://fonts.gstatic.com/s/worksans/v2/4udXuXg54JlPEP5iKO5AmRampu5_7CjHW5spxoeN3Vs.woff2) format('woff2');
         }
-        /* General */
+        /* GENERAL */
         body {margin:0;}
         table {border-collapse:collapse;}
         tr {padding:0;border-collapse:collapse;}
         td {padding:0;border-collapse:collapse;}
         img {display:block;}
-        /* Text */
+        
+        /* TEXT */
         a {text-decoration:none;}
         p {color:#000;margin:0;}
         
@@ -45,51 +46,47 @@
         .header-browser p {font-family: 'Work Sans', Helvetica, Sans-sérif;font-size:10px;text-align:center;margin:0;}
         .header-links {margin-top:25px;}
         .header-links p {font-family:'Work Sans', Helvetica, Sans-sérif;font-size:12px;font-weight:600;letter-spacing:1px;}
+        .header-links a {color:#fff;}
         .header-image {margin-top:50px;}
         .header-socialmedia {margin-top:25px;}
         
-        /* MAIN CONTENT */
+        /* INTRO */
+        .intro-content {margin-top:75px;}
+        .intro-links {margin-top:75px;}
+        .intro-texte {margin-top:75px;}
+        .intro-texte p {font-family:'Work Sans', Helvetica, Sans-sérif;font-size:16px;font-weight:500;text-align:justify;margin-bottom:10px;color:#fff;}
         
-        .main-content {margin-top:100px;}
-        .main-links {margin-top:50px;}
-        .main-texte {margin-top:50px;}
-        .main-texte p {font-family:'Work Sans', Helvetica, Sans-sérif;font-size:16px;font-weight:400;text-align:justify;margin-bottom:10px;}
+        /* SECTION BLACK */
+        .section-white {background-color:#fff;}
+        .section-white-title {margin-top:60px;text-align:center;}
+        .section-white-title p {font-family:'Space Mono', arial, sans-serif;font-size:50px;font-weight:700;font-style:italic;color:#000;text-transform:uppercase;}
+        .section-black {background-color:#000;}
+        .section-black-title {margin-top:60px;text-align:center;}
+        .section-black-title p {font-family:'Space Mono', arial, sans-serif;font-size:50px;font-weight:700;font-style:italic;color:#fff;text-transform:uppercase;}
         
-        /* CONTENT */
-        .content {background-color:#ffffff;margin-top:50px;}
+        .resident {margin-top:50px;}
+        .resident-name {margin-top:10px;}
+        .resident-name p {font-family:'Work Sans', arial, sans-serif;font-size:16px;font-weight:600;color:#000;text-transform:uppercase;letter-spacing:2px;}
+        .resident-links {margin-top:5px;}
+        .resident-crew {margin-top:2px;}
+        .resident-crew p {font-family:'Work Sans', arial, sans-serif;font-size:14px;font-weight:500;font-style:italic;color:#000;text-transform:uppercase;}
         
-        /* ARTISTS */
-        .artists-title-container {background-color:#000;}
-        .artists-title-subcontainer {margin-top:10px;margin-bottom:14px;}
-        .artists-title-1 {font-family:'Space Mono', arial, sans-serif;font-size:50px;line-height:45px;font-weight:700;font-style:italic;color:#fff;text-transform:uppercase;}
-        .artists-title-2 {font-family:'Space Mono', arial, sans-serif;font-size:25px;line-height:25px;font-weight:700;color:#fff;text-transform:uppercase;padding-top:5px;}
+        .rinse-info {margin-top:40px;text-align:center;}
+        .rinse-info p {font-family:'Work Sans', arial, sans-serif;font-size:22px;font-weight:500;color:#fff;margin-top:10px;}
+        .rinse-play {margin-top:50px;}
         
-        .artists-content-container {margin-bottom:25px;}
+        .festival-date {margin-top:40px;text-align:center;}
+        .festival-date p {font-family:'Work Sans', arial, sans-serif;font-size:22px;font-weight:500;color:#000;margin-top:10px;}
+        .festival-report {margin-top:50px;}
         
-        .artists-content {margin-top:25px;}
-        .artists-content-title {border:2px solid #000;}
-        .artists-content-title td {padding-left:10px;padding-top:5px;padding-bottom:5px;}
-        .artists-content-title p {font-family:'Work Sans', arial, sans-serif;font-size:20px;font-weight:500;color:#000;text-transform:uppercase;letter-spacing:2px;}
-        
-        .artists-news {margin-top:15px;}
-        .news-title {font-family:'Work Sans', arial, sans-serif;font-size:16px;font-weight:500;color:#000;padding-bottom:10px;}
-        .news-text {font-family:'Work Sans', arial, sans-serif;font-size:15px;font-weight:400;color:#000;padding-bottom:10px;}
-        .release-info {font-family:'Work Sans', arial, sans-serif;font-size:15px;font-weight:600;color:#000;padding-bottom:10px;font-style:italic;}
-        .tracklist {font-family:'Work Sans', arial, sans-serif;font-size:13px;font-weight:400;color:#000;padding-bottom:10px;}
-        
-        .subnews-title {font-family:'Work Sans', arial, sans-serif;font-size:16px;font-weight:500;color:#000;padding-bottom:10px;letter-spacing:1px;}
-        
-        /* DATES */
-        .dates-confirmed {margin-top:100px;margin-bottom:75px;text-align:center;}
-        .dates-confirmed p {font-family:'Space Mono', arial, sans-serif;font-size:50px;line-height:45px;font-weight:700;font-style:italic;color:#000;text-transform:uppercase;}
-        
-        .dates-section {margin-top:25px;}
-        .dates-title p {font-family:'Work Sans', arial, sans-serif;font-size:30px;font-weight:600;font-style:italic;color:#000;text-transform:uppercase;}
-        
+         /* DATES */
+        .dates-title {margin-top:60px;}
+        .section-black .dates-title p {font-family:'Work Sans', arial, sans-serif;font-size:30px;font-weight:600;font-style:italic;color:#fff;text-transform:uppercase;letter-spacing:1px;}
+        .section-white .dates-title p {font-family:'Work Sans', arial, sans-serif;font-size:30px;font-weight:600;font-style:italic;color:#000;text-transform:uppercase;letter-spacing:1px;}
+        .dates-container {margin-top:50px;}
         .dates-content {margin-top:10px;}
-        .dates-content p {font-family:'Work Sans', arial, sans-serif;font-size:14px;font-weight:500;color:#000;text-transform:uppercase;letter-spacing:1px;}
-        .venue {margin-left:75px;margin-top:5px;}
-        .venue p {font-family:'Work Sans', arial, sans-serif;font-size:14px;font-weight:500;color:#000;letter-spacing:1px;}
+        .section-black .dates-content p {font-family:'Work Sans', arial, sans-serif;font-size:14px;font-weight:500;color:#fff;letter-spacing:1px;}
+        .section-white .dates-content p {font-family:'Work Sans', arial, sans-serif;font-size:14px;font-weight:500;color:#000;letter-spacing:1px;}
         
         .booking {margin-top:100px;}
         .booking-contact {text-align:center;}
@@ -107,433 +104,706 @@
         .footer-links-wrapper {border-top:2px solid #000;border-bottom:2px solid #000;margin-bottom:10px;}
         .footer-links {margin-top:5px;margin-bottom:5px;}
         .footer-links p {font-family:'Work Sans', Helvetica, Sans-sérif;font-size:12px;color:#000;font-weight:600;text-transform:uppercase;}
+        .footer-links a {color:#000;}
         .footer-unsubscribe {margin-top:10px;margin-bottom:10px;}
         .footer-unsubscribe p {font-family: 'Work Sans', Helvetica, Sans-sérif;font-size:10px;text-align:center;margin:0;}
         </style>
     </head>
-    <body style="background-color:#f0f0f0;">
-
-        <!-- HEADER -->
-        <table align="center" width="600">
+    <body style="background-color:#000;">
+        
+        <!-- / SECTION 1 -->
+        <table width="100%" style="background-color:#000;">
             <tr>
-                <td>
-                    <table align="center" width="600" class="header-browser">
+                <td>    
+                    <table align="center" width="620" style="margin-bottom:50px;">
                         <tr>
                             <td>
-                                <p><a href="[[PERMALINK]]" style="color:#000;text-decoration:underline;">Cliquez-ici pour ouvrir ce message dans votre navigateur</a></p>
-                            </td>
-                        </tr>
-                    </table>
-                    <table align="center" width="600" class="header-links">
-                        <tr>
-                            <td>
-                                <table width="600">
+                                <!-- HEADER -->
+                                <table align="center" width="600">
                                     <tr>
-                                        <td align="left">
-                                            <table>
+                                        <td>
+                                            <table align="center" width="600" class="header-browser">
                                                 <tr>
                                                     <td>
-                                                        <img src="https://i.imgur.com/TDqYNmV.png" />
+                                                        <p><a href="[[PERMALINK]]" style="color:#fff;text-decoration:underline;">Cliquez-ici pour ouvrir ce message dans votre navigateur</a></p>
                                                     </td>
                                                 </tr>
                                             </table>
-                                        </td>
-                                        <td align="right">
-                                            <table>
+                                            <table align="center" width="600" class="header-links">
                                                 <tr>
                                                     <td>
-                                                        <p><a href="https://www.facebook.com/vdartists/" target="_blank" style="color:#000;">FACEBOOK</a></p>    
-                                                    </td>
-                                                    <td style="padding-left:10px;padding-right:10px;">
-                                                        <p><a href="https://twitter.com/voodoobookings" target="_blank" style="color:#000;">TWITTER</a></p>    
-                                                    </td>
-                                                    <td>
-                                                        <p><a href="mailto:marc@voodoobookings.com" style="color:#000;">CONTACT</a></p>    
+                                                        <table width="600">
+                                                            <tr>
+                                                                <td align="left">
+                                                                    <table>
+                                                                        <tr>
+                                                                            <td>
+                                                                                <img src="https://i.imgur.com/f3dtzOH.png" />
+                                                                            </td>
+                                                                        </tr>
+                                                                    </table>
+                                                                </td>
+                                                                <td align="right">
+                                                                    <table>
+                                                                        <tr>
+                                                                            <td>
+                                                                                <p><a href="https://www.facebook.com/vdartists/" target="_blank">FACEBOOK</a></p>    
+                                                                            </td>
+                                                                            <td style="padding-left:10px;padding-right:10px;">
+                                                                                <p><a href="https://twitter.com/voodoobookings" target="_blank">TWITTER</a></p>    
+                                                                            </td>
+                                                                            <td>
+                                                                                <p><a href="mailto:micky@voodooartists.com">CONTACT</a></p>    
+                                                                            </td>
+                                                                        </tr>
+                                                                    </table>
+                                                                </td>
+                                                            </tr>
+                                                        </table>
                                                     </td>
                                                 </tr>
                                             </table>
                                         </td>
                                     </tr>
                                 </table>
-                            </td>
-                        </tr>
-                    </table>
-                </td>
-            </tr>
-        </table>
-        <!-- / HEADER -->
-        
-        <!-- TOO SMOOTH -->
-        <table align="center" width="600" class="main-content">
-            <tr>
-                <td>
-                    <table align="center">
-                        <tr>
-                            <img src="https://i.imgur.com/Js2EcQV.png" />
-                        </tr>
-                    </table>
-                    <table align="center" class="main-links">
-                        <tr>
-                            <td>
-                                <a href="https://www.facebook.com/toosmoothchrist/" target="_blank"><img src="https://i.imgur.com/sYCVJMW.png" height="50" /></a>
-                            </td>
-                            <td style="padding-left:25px;padding-right:25px;">
-                                <a href="https://soundcloud.com/toosmoothchrist" target="_blank"><img src="https://i.imgur.com/gpPQs1z.png" height="50"/></a>
-                            </td>
-                            <td>
-                                <a href="https://www.residentadvisor.net/dj/toosmoothchrist" target="_blank"><img src="https://i.imgur.com/jmcFVMU.png" height="50"/></a>
-                            </td>
-                        </tr>
-                    </table>
-                    <table width='524' align="center" class='main-texte'>
-                        <tr>
-                            <td>
-                                <p>Too Smooth Christ rejoint le roster Voodoo Artists pour ses bookings France !</p>
-                                <p>Flashé l'année dernière à pas moins de <a href='https://www.discogs.com/artist/4810246-Too-Smooth-Christ' target='_blank' style='text-decoration:underline;color:#000;'>six EPs et un LP sortis sur six labels différents</a>, le Breton basé à Paris a traversé 2017 à un rythme plus qu'effréné, laissant en quelques mois son nom sur toutes les lèvres des amateurs de musiques électroniques.</p>
-                                <p>Nocta Numerica, Lost Dogs Entertainment, Ville Nouvelle, Kalahari Oyster Cult, Fuego International et Supergenius Records dont il est le fondateur au côté de DJ Koyote se sont laissés convaincre par sa capacité à aligner dans ses productions beat breakés, acid voir jungle face à des athmosphères plus house et balearic.</p>
-                                <p>Deux visages distincts, dessinés sans jamais s'éloigner en deux lives, l'un plus ambient, l'autre aux accents rave, mais aussi en DJ set qui seront à découvrir tout au long de l'année 2018, déjà pleine de promesses !</p>
-                            </td>
-                        </tr>
-                    </table>
-                </td>
-            </tr>
-        </table>
-        <!-- / TOO SMOOTH -->
-        
-        <table align='center' width='600' style="margin-top:50px;text-align:center;">
-            <tr>
-                <td>
-                    <p style='font-family:"Space Mono", arial, sans-serif;font-size:50px;font-weight:700;font-style:italic;'>MAIS AUSSI...</p>
-                </td>
-            </tr>
-        </table>
-        
-        <!-- CONTENT -->
-        <table align="center" width="600" class="content">
-            <tr>
-                <td>
-                    <!-- LB AKA LABAT -->
-                    <table align="center" width="600" class="artists">
-                        <tr>
-                            <td>
-                                <table align="center">
+                                <!-- / HEADER -->
+                                <!-- INTRO -->
+                                <table align="center" width="600" class="intro-content">
                                     <tr>
                                         <td>
-                                            <img src="https://i.imgur.com/83Uq3b9.png" />
+                                            <table align="center">
+                                                <tr>
+                                                    <td>
+                                                        <img src="https://i.imgur.com/g3KlKvs.gif" />
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                            <table align="center" class="intro-links">
+                                                <tr>
+                                                    <td>
+                                                        <a href="https://www.facebook.com/quiembrouillequi/" target="_blank"><img src="https://i.imgur.com/3GE43YM.png"  height="50"/></a>
+                                                    </td>
+                                                    <td style="padding-left:25px;padding-right:25px;">
+                                                        <a href="https://www.instagram.com/quiembrouillequi/" target="_blank"><img src="https://i.imgur.com/NHobSo1.png" height="50"/></a>
+                                                    </td>
+                                                    <td>
+                                                        <a href="http://quiembrouillequi.com/" target="_blank"><img src="https://i.imgur.com/czsXvLb.png" height="50"/></a>
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                            <table width='600' align="center" class='intro-texte'>
+                                                <tr>
+                                                    <td>
+                                                        <p>Après une première édition qui a marqué les esprits durant l’été 2017, le festival Qui Embrouille Qui rassemble ses chiens fous pour faire durer le danger au-delà de sa session estivale, en dehors des seules frontières parisiennes.</p>
+                                                        <p>Unis autour d'une tournée des clubs de l'hexagone imaginée par AZF, tous les résidents du crew traverseront les quatre coins du pays pour faire valoir au-dessus de leur statut de moteur de la club-music française, ces valeurs d'ouverture et de liberté de la fête défendues par le collectif.</p>
+                                                        <p>En plus d'une nouvelle mensuelle Rinse France propice à mettre en avant les talents de chacun, les opportunités de découvrir ce qui anime la fratrie Qui Embrouille Qui seront nombreuses avant un nouveau rassemblement lors de l'édition #02 du festival, étalée sur non pas deux mais trois jours en Août à La Station - Gare des Mines !</p>
+                                                    </td>
+                                                </tr>
+                                            </table>
                                         </td>
                                     </tr>
                                 </table>
-                                <table align="center" width="600" class="artists-title-container" style='background-color:#537C98;'>
+                                <!-- / INTRO --> 
+                            </td>
+                        </tr>
+                    </table> 
+                </td>
+            </tr>
+        </table>
+        <!-- / SECTION 1 -->
+        
+        <!-- SECTION 2 -->
+        <table width="100%" class="section-white">
+            <tr>
+                <td>
+                    <table align="center" width="620" style="margin-bottom:60px;">
+                        <tr>
+                            <td>
+                                <table align="center" width="600" class="section-white-title">
                                     <tr>
                                         <td>
-                                            <table align="center" width="560" class="artists-title-subcontainer">
+                                            <p>RÉSIDENTS</p>
+                                        </td>
+                                    </tr>
+                                </table>
+                                
+                                <!-- LIGNE 1 -->
+                                <table align="center" width="600">
+                                    <tr>
+                                        <td>
+                                            <table align="center" width="600" class="resident">
                                                 <tr>
-                                                    <td align="left" style="vertical-align:middle;">
-                                                        <p class="artists-title-1">LB aka LABAT</p>
-                                                        <p class="artists-title-2">(Lyon, FR)</p>
+                                                    <td width="190">
+                                                        <img src="https://i.imgur.com/hY42GJP.png" />
                                                     </td>
-                                                    <td align="right" style="vertical-align:middle;">
+                                                    <td width="190" style="padding-left:15px;padding-right:15px;">
+                                                        <img src="https://i.imgur.com/EeSDMu3.png" />
+                                                    </td>
+                                                    <td width="190">
+                                                        <img src="https://i.imgur.com/cx3LBuS.png" />
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                            <table align="center" width="600" class="resident-name">
+                                                <tr>
+                                                    <td width="190" style="vertical-align:top;">
+                                                        <p>AZF</p>
+                                                    </td>
+                                                    <td width="190" style="vertical-align:top;padding-left:15px;padding-right:15px;">
+                                                        <p>GRAAL</p>
+                                                    </td>
+                                                    <td width="190" style="vertical-align:top;">
+                                                        <p>HASAR DE DORIA</p>
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                            <table align="center" width="600" class="resident-links">
+                                                <tr>
+                                                    <td width="190" style="vertical-align:top;">
                                                         <table>
                                                             <tr>
                                                                 <td>
-                                                                    <a href="https://www.facebook.com/LbAkaLabat/" target="_blank"><img src="https://i.imgur.com/kt6Ok3o.png" height="35" /></a>
+                                                                    <a href="https://www.facebook.com/djazf/" target="_blank"><img src="https://i.imgur.com/rZAO2w1.png" height="24"/></a>
                                                                 </td>
-                                                                <td style="padding-left:10px;">
-                                                                    <a href="https://soundcloud.com/lb-aka-labat" target="_blank"><img src="https://i.imgur.com/15uk4DA.png" height="35" /></a>
+                                                                <td style="padding-left:2px;padding-right:2px;">
+                                                                    <a href="https://soundcloud.com/djazf" target="_blank"><img src="https://i.imgur.com/6FkFVSz.png" height="24"/></a>
+                                                                </td>
+                                                                <td>
+                                                                    <a href="https://youtu.be/2v3ZKUCjN6Q" target="_blank"><img src="https://i.imgur.com/1PMmg5U.png" height="24"/></a>
                                                                 </td>
                                                             </tr>
                                                         </table>
                                                     </td>
-                                                </tr>
-                                            </table>
-                                        </td>
-                                    </tr>
-                                </table>
-                                <table align="center" width="600" class="artists-content-container">
-                                    <tr>
-                                        <td>
-                                            <table align="center" width="560">
-                                                <tr>
-                                                    <td>
-                                                        <table width="560" class="artists-content">
-                                                            <tr>
-                                                                <td>
-                                                                    <table width="560" class="artists-content-title">
-                                                                        <tr>
-                                                                            <td>
-                                                                                <p>NOUVELLE MIXTAPE SUR Alélah Records</p>
-                                                                            </td>
-                                                                        </tr>
-                                                                    </table>
-                                                                    <table width="560" class="artists-news">
-                                                                        <tr>
-                                                                            <td align='left' style='vertical-align:top;'>
-                                                                                <img src='https://i.imgur.com/A6LpQvt.jpg' width='270' />
-                                                                            </td>
-                                                                            <td align='right' width="280" style="text-align:justify;vertical-align:top;">
-                                                                                <p class="news-text">Première d'une série de mixtape initiée par son label Alelah Records, <span style='font-weight:600'>Alelah Naastre</span> assemblée par le chef lui-même pose tout en Jazz et en Soul la base de cette nouvelle chronique : Livrer une sélection au plus proches des influences de chacun de ses invités. Classe !</p>
-                                                                                <p class="release-info"><a href="https://chezemile-records.com/release/11435514-LB-aka-LABAT-ALELAH-NAASTRE" target="_blank" style="color:#000;text-decoration:underline;">OUT NOW !</a></p>
-                                                                                <a href='https://soundcloud.com/lb-aka-labat/lb-aka-labat-alelah-naastre-snippet-alelah-004' target='_blank'><img src="https://i.imgur.com/nG8toIj.png" /></a>
-                                                                            </td>
-                                                                        </tr>
-                                                                    </table>
-                                                                </td>
-                                                            </tr>
-                                                        </table>
-                                                        <table width="560" class="artists-content">
-                                                            <tr>
-                                                                <td>
-                                                                    <table width="560" class="artists-content-title">
-                                                                        <tr>
-                                                                            <td>
-                                                                                <p>NOUVEL EP SUR WOLF MUSIC</p>
-                                                                            </td>
-                                                                        </tr>
-                                                                    </table>
-                                                                    <table width="560" class="artists-news">
-                                                                        <tr>
-                                                                            <td align='left' style='vertical-align:top;'>
-                                                                                <img src='https://i.imgur.com/jZ5jR7X.png' width='270' />
-                                                                            </td>
-                                                                            <td align='right' width="280" style="text-align:justify;vertical-align:top;">
-                                                                                <p class="news-text">C'est sur le label de Brighton qui brille par ses releases house aussi remarquables qu'authentiques que sortira <span style='font-weight:600'>"Trimz & Thangs"</span>, <span style='font-weight:600'>nouveau quatre tracks</span> sur lequel le groove du lyonnais glisse parfaitement derrière ses talents de sampleur !</p>
-                                                                                <p class="release-info">DISPONIBLE LE 08 MARS</p>
-                                                                                <a href='https://soundcloud.com/lb-aka-labat/sets/lb-aka-labat-trimz-thangs-ep-wolf-records/s-TshSF' target='_blank'><img src="https://i.imgur.com/nG8toIj.png" /></a>
-                                                                            </td>
-                                                                        </tr>
-                                                                    </table>
-                                                                </td>
-                                                            </tr>
-                                                        </table>
-                                                        
-                                                        <table width="560" class="artists-content">
-                                                            <tr>
-                                                                <td>
-                                                                    <table width="560" class="artists-content-title">
-                                                                        <tr>
-                                                                            <td>
-                                                                                <p>NOUVEAU LABEL : LE PETIT ZOO</p>
-                                                                            </td>
-                                                                        </tr>
-                                                                    </table>
-                                                                    <table width="560" class="artists-news">
-                                                                        <tr>
-                                                                            <td align='left' style='vertical-align:top;'>
-                                                                                <img src='https://i.imgur.com/WmixNu3.png' width='270' />
-                                                                            </td>
-                                                                            <td align='right' width="280" style="text-align:justify;vertical-align:top;">
-                                                                                <p class="news-text">Après Alelah Records : <span style='font-weight:600'>Le Petit Zoo</span>, nouveau label chapeauté par Labat et monsieur <span style='font-weight:600'>Pablo Valentino</span>, le très respecté fondateur du très respecté MCDE Records. Un nouveau projet qui sera inauguré par l'EP <span style='font-weight:600'>"No Money, No Honey"</span>, autre quatre tracks du lyonnais qui montre encore une fois toute l'étendue de son talent !</p>
-                                                                                <p class="release-info">DISPONIBLE LE 10 AVRIL</p>
-                                                                                <p class="news-text">Support by Motor City Drum Ensemble !</p>
-                                                                                <a href='https://soundcloud.com/lb-aka-labat/sets/lb-aka-labat-rings-le-petit-zoo-records-001/s-dTdy5' target='_blank'><img src="https://i.imgur.com/nG8toIj.png" /></a>
-                                                                            </td>
-                                                                        </tr>
-                                                                    </table>
-                                                                </td>
-                                                            </tr>
-                                                        </table>
-                                                        <table width="560" class="artists-content">
-                                                            <tr>
-                                                                <td>
-                                                                    <table width="560" class="artists-content-title">
-                                                                        <tr>
-                                                                            <td>
-                                                                                <p>NOUVEAU TRACK SUR THE GAME RECORDS</p>
-                                                                            </td>
-                                                                        </tr>
-                                                                    </table>
-                                                                    <table width="560" class="artists-news">
-                                                                        <tr>
-                                                                            <td align='left' style='vertical-align:top;'>
-                                                                                <img src='https://i.imgur.com/Ecimv8R.png' width='270' />
-                                                                            </td>
-                                                                            <td align='right' width="280" style="text-align:justify;vertical-align:top;">
-                                                                                <p class="news-text">Nouveau venu parisiano-barcelonais dans le game house, <span style='font-weight:600'>The Game Records</span> s'apprête à sortir un second Various qui portera la marque du lyonnais avec "Master Monini", track bien deep, bien chaud.</p>
-                                                                                <p class="release-info">DISPONIBLE BIENTÔT</p>
-                                                                                <a href='https://soundcloud.com/lb-aka-labat/lb-aka-labat-master-monini-various-the-game-records/s-k5Sqy' target='_blank'><img src="https://i.imgur.com/nG8toIj.png" /></a>
-                                                                            </td>
-                                                                        </tr>
-                                                                    </table>
-                                                                </td>
-                                                            </tr>
-                                                        </table>
-                                                    </td>
-                                                </tr>
-                                            </table>
-                                        </td>
-                                    </tr>
-                                </table>
-                            </td>
-                        </tr>
-                    </table>
-                    <!-- / LABAT -->
-                    <!-- PUZUPUZU -->
-                    <table align="center" width="600" class="artists">
-                        <tr>
-                            <td>
-                                <table align="center">
-                                    <tr>
-                                        <td>
-                                            <img src="https://i.imgur.com/ESYaKxN.png" />
-                                        </td>
-                                    </tr>
-                                </table>
-                                <table align="center" width="600" class="artists-title-container" style='background-color:#c51c33;'>
-                                    <tr>
-                                        <td>
-                                            <table align="center" width="560" class="artists-title-subcontainer">
-                                                <tr>
-                                                    <td align="left" style="vertical-align:middle;">
-                                                        <p class="artists-title-1">Puzupuzu</p>
-                                                        <p class="artists-title-2">(Reims, FR)</p>
-                                                    </td>
-                                                    <td align="right" style="vertical-align:middle;">
+                                                    <td width="190" style="vertical-align:top;padding-left:15px;padding-right:15px;">
                                                         <table>
                                                             <tr>
                                                                 <td>
-                                                                    <a href="https://www.facebook.com/puzupuzux2/" target="_blank"><img src="https://i.imgur.com/kt6Ok3o.png" height="35" /></a>
+                                                                    <a href="https://www.facebook.com/graaaal/" target="_blank"><img src="https://i.imgur.com/rZAO2w1.png" height="24"/></a>
                                                                 </td>
-                                                                <td style="padding-left:10px;">
-                                                                    <a href="https://soundcloud.com/puzupuzu" target="_blank"><img src="https://i.imgur.com/15uk4DA.png" height="35" /></a>
+                                                                <td style="padding-left:2px;padding-right:2px;">
+                                                                    <a href="https://soundcloud.com/graaaaal" target="_blank"><img src="https://i.imgur.com/6FkFVSz.png" height="24"/></a>
+                                                                </td>
+                                                                <td>
+                                                                    <a href="https://youtu.be/f7Qp2t2FhVM" target="_blank"><img src="https://i.imgur.com/170hcG7.png" height="24"/></a>
+                                                                </td>
+                                                            </tr>
+                                                        </table>
+                                                    </td>
+                                                    <td width="190" style="vertical-align:top;">
+                                                        <table>
+                                                            <tr>
+                                                                <td>
+                                                                    <a href="https://www.facebook.com/hasardedoria/" target="_blank"><img src="https://i.imgur.com/rZAO2w1.png" height="24"/></a>
+                                                                </td>
+                                                                <td style="padding-left:2px;padding-right:2px;">
+                                                                    <a href="https://soundcloud.com/hasardedoria" target="_blank"><img src="https://i.imgur.com/6FkFVSz.png" height="24"/></a>
+                                                                </td>
+                                                                <td>
+                                                                    <a href="https://youtu.be/pK_jCsHcOfQ" target="_blank"><img src="https://i.imgur.com/170hcG7.png" height="24"/></a>
                                                                 </td>
                                                             </tr>
                                                         </table>
                                                     </td>
                                                 </tr>
                                             </table>
+                                            <table align="center" width="600" class="resident-crew">
+                                                <tr>
+                                                    <td width="205" style="vertical-align:top">
+                                                        <p>—<br>RINSE FRANCE</p>
+                                                    </td>
+                                                    <td width="205" style="vertical-align:top">
+                                                        <p>—<br>Le Cabanon<br>Raide<br>Tripalium</p>
+                                                    </td>
+                                                    <td width="190" style="vertical-align:top">
+                                                        <p>—<br>DARKSHINER</p>
+                                                    </td>
+                                                </tr>
+                                            </table>
                                         </td>
                                     </tr>
                                 </table>
-                                <table align="center" width="600" class="artists-content-container">
+                                <!-- / LIGNE 1 -->
+                                
+                                <!-- LIGNE 2 -->
+                                <table align="center" width="600">
                                     <tr>
                                         <td>
-                                            <table align="center" width="560">
+                                            <table align="center" width="600" class="resident">
                                                 <tr>
-                                                    <td>
-                                                        <table align="center" class="artists-content">
+                                                    <td width="190">
+                                                        <img src="https://i.imgur.com/KNZv9ax.png" />
+                                                    </td>
+                                                    <td width="190" style="vertical-align:top;padding-left:15px;padding-right:15px;">
+                                                        <img src="https://i.imgur.com/c1d5qdD.png" />
+                                                    </td>
+                                                    <td width="190">
+                                                        <img src="https://i.imgur.com/RIvjSnw.png" />
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                            <table align="center" width="600" class="resident-name">
+                                                <tr>
+                                                    <td width="190" style="vertical-align:top;">
+                                                        <p>JARDIN</p>
+                                                    </td>
+                                                    <td width="190" style="vertical-align:top;padding-left:15px;padding-right:15px;">
+                                                        <p>MARCOROSSO</p>
+                                                    </td>
+                                                    <td width="190" style="vertical-align:top;">
+                                                        <p>MYAKO</p>
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                            <table align="center" width="600" class="resident-links">
+                                                <tr>
+                                                    <td width="190" style="vertical-align:top;">
+                                                        <table>
                                                             <tr>
                                                                 <td>
-                                                                    <table width="560" class="artists-content-title">
-                                                                        <tr>
-                                                                            <td>
-                                                                                <p>NOUVEL EP SUR MAGIC DANCER</p>
-                                                                            </td>
-                                                                        </tr>
-                                                                    </table>
-                                                                    <table width="560" class="artists-news">
-                                                                        <tr>
-                                                                            <td align='left' style='vertical-align:top;'>
-                                                                                <img src='https://i.imgur.com/0tPCacb.jpg' width='270' />
-                                                                            </td>
-                                                                            <td align='right' width="280" style="text-align:justify;vertical-align:top;">
-                                                                                <p class="news-text">Après des passages remarqués au Baleapop, Festival Visions, Le Sucre, Villette Sonique et 75021 qui ont ponctué une belle année 2017, notre rémois sûr lance 2018 en inaugurant le nouveau label de Pasteur Charles, <span style="font-weight:600">Magic Dancer</span> avec <span style="font-weight:600">l'EP "Red Ring"</span>. Première sortie solo depuis les boucles époustouflantes de son "Bôro d'Enjaillement", Puzupuzu trace ici en cinq tracks un pont entre lignes acid et house surplombant ses racines afro, toujours présentes, toujours dansantes.</p>
-                                                                                <p class="release-info">DISPONIBLE LE 23 FÉVRIER</p>
-                                                                                <a href='https://soundcloud.com/trax-magazine/premiere-puzupuzu-treo' target='_blank'><img src="https://i.imgur.com/81Joemr.png" style="padding-bottom:10px;" /></a>
-                                                                            </td>
-                                                                        </tr>
-                                                                    </table>
+                                                                    <a href="https://www.facebook.com/jardin.to.rave/" target="_blank"><img src="https://i.imgur.com/rZAO2w1.png" height="24"/></a>
+                                                                </td>
+                                                                <td style="padding-left:2px;padding-right:2px;">
+                                                                    <a href="https://soundcloud.com/jardn" target="_blank"><img src="https://i.imgur.com/6FkFVSz.png" height="24"/></a>
+                                                                </td>
+                                                                <td>
+                                                                    <a href="https://youtu.be/93Lk8abbGuA" target="_blank"><img src="https://i.imgur.com/170hcG7.png" height="24"/></a>
+                                                                </td>
+                                                            </tr>
+                                                        </table>
+                                                    </td>
+                                                    <td width="190" style="vertical-align:top;padding-left:15px;padding-right:15px;">
+                                                        <table>
+                                                            <tr>
+                                                                <td style="padding-right:2px;">
+                                                                    <a href="https://soundcloud.com/marcorosso" target="_blank"><img src="https://i.imgur.com/6FkFVSz.png" height="24"/></a>
+                                                                </td>
+                                                                <td>
+                                                                    <a href="https://www.mixcloud.com/RinseFrance/qui-embrouille-qui-avec-marcorosso-sina-25-janvier-2018/" target="_blank"><img src="https://i.imgur.com/170hcG7.png" height="24"/></a>
+                                                                </td>
+                                                            </tr>
+                                                        </table>
+                                                    </td>
+                                                    <td width="190" style="vertical-align:top;">
+                                                        <table>
+                                                            <tr>
+                                                                <td>
+                                                                    <a href="https://www.facebook.com/myakolive/" target="_blank"><img src="https://i.imgur.com/rZAO2w1.png" height="24"/></a>
+                                                                </td>
+                                                                <td style="padding-left:2px;padding-right:2px;">
+                                                                    <a href="https://soundcloud.com/myako" target="_blank"><img src="https://i.imgur.com/6FkFVSz.png" height="24"/></a>
+                                                                </td>
+                                                                <td>
+                                                                    <a href="https://youtu.be/Y2rthS6nO_Y" target="_blank"><img src="https://i.imgur.com/170hcG7.png" height="24"/></a>
                                                                 </td>
                                                             </tr>
                                                         </table>
                                                     </td>
                                                 </tr>
                                             </table>
-                                            <table align="center" width="560">
+                                            <table align="center" width="600" class="resident-crew">
                                                 <tr>
-                                                    <td>
-                                                        <table align="center" class="artists-content">
-                                                            <tr>
-                                                                <td>
-                                                                    <table width="560" class="artists-content-title">
-                                                                        <tr>
-                                                                            <td>
-                                                                                <p>LES INOUÏS DU PRINTEMPS DE BOURGES</p>
-                                                                            </td>
-                                                                        </tr>
-                                                                    </table>
-                                                                    <table width="560" class="artists-news">
-                                                                        <tr>
-                                                                            <td align='left' style='vertical-align:top;'>
-                                                                                <img src='https://i.imgur.com/AcVeZKx.png' width='270' />
-                                                                            </td>
-                                                                            <td align='right' width="280" style="text-align:justify;vertical-align:top;">
-                                                                                <p class="news-text">Tout comme Espilove, Puzupuzu a été sélectionné pour participer aux <span style="font-weight:600">auditions Île-de-France des Inouïs du Printemps de Bourges catégorie Electro</span> ! Ça se passe Jeudi au Trabendo, en accès gratuit sur invitation à retirer ci-dessous :)</p>
-                                                                                <p class="release-info">JEUDI 01 FÉVRIER @ TRABENDO</p>
-                                                                                <a href='https://www.facebook.com/events/2427099470848973/' target='_blank'><img src="https://i.imgur.com/7tgysrg.png" style="padding-bottom:10px;" /></a>
-                                                                                <a href='http://www.digitick.com/les-inouis-du-printemps-de-bourges-credit-mutuel-concert-le-trabendo-paris-01-fevrier-2018-css4-digitick-pg101-ri5060253.html' target='_blank'><img src="https://i.imgur.com/wRkmAYg.png" style="padding-bottom:10px;" /></a>
-                                                                            </td>
-                                                                        </tr>
-                                                                    </table>
-                                                                </td>
-                                                            </tr>
-                                                        </table>
+                                                    <td width="205" style="vertical-align:top">
+                                                        <p>—<br>Le Turc Mécanique<br>Hylé Tapes<br>Dumbhill</p>
                                                     </td>
-                                                </tr>
-                                            </table>
-                                            <table align="center" width="560">
-                                                <tr>
-                                                    <td>
-                                                        <table align="center" class="artists-content">
-                                                            <tr>
-                                                                <td>
-                                                                    <table width="560" class="artists-content-title">
-                                                                        <tr>
-                                                                            <td>
-                                                                                <p>À VENIR...</p>
-                                                                            </td>
-                                                                        </tr>
-                                                                    </table>
-                                                                    <table width="560" class="artists-news">
-                                                                        <tr>
-                                                                            <td style="text-align:justify;vertical-align:top;">
-                                                                                <p class="subnews-title">QUI EMBROUILLE QUI</p>
-                                                                                <p class="news-text">Puzupuzu prendra part à l'invasion <span style="font-weight:600">Qui Embrouille Qui</span>, le projet de <span style="font-weight:600">DJ AZF</span> qui s'apprête à partir sur les routes de France avec ses résidents avant une édition #2 du festival en Août à La Station !</p>
-                                                                                <p class="subnews-title">COMPILATION HOUSE FOR HER</p>
-                                                                                <p class="news-text">Le tout jeune label monté par <span style="font-weight:600">She's Gone</span> sortira très bientôt une seconde compilation avec un morceau du rémois !</p>
-                                                                                <p class="subnews-title">COMPILATION BOUKAN RECORDS</p>
-                                                                                <p class="news-text">Plus d'infos très bientôt ;)</p>
-                                                                            </td>
-                                                                        </tr>
-                                                                    </table>
-                                                                </td>
-                                                            </tr>
-                                                        </table>
+                                                    <td width="205" style="vertical-align:top">
+                                                        <p>—<br>Guilty Dogs<br>75021<br>La Machine du Moulin Rouge</p>
+                                                    </td>
+                                                    <td width="190" style="vertical-align:top">
+                                                        <p>—<br>Fragil<br>Nona Records<br>Comfortzone Music</p>
                                                     </td>
                                                 </tr>
                                             </table>
                                         </td>
                                     </tr>
                                 </table>
+                                <!-- / LIGNE 2 -->
+                                
+                                <!-- LIGNE 3 -->
+                                <table align="center" width="600">
+                                    <tr>
+                                        <td>
+                                            <table align="center" width="600" class="resident">
+                                                <tr>
+                                                    <td width="190">
+                                                        <img src="https://i.imgur.com/MsToHD8.png" />
+                                                    </td>
+                                                    <td width="190" style="vertical-align:top;padding-left:15px;padding-right:15px;">
+                                                        <img src="https://i.imgur.com/vgZBkEn.png" />
+                                                    </td>
+                                                    <td width="190">
+                                                        <img src="https://i.imgur.com/NYJv3vq.png" />
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                            <table align="center" width="600" class="resident-name">
+                                                <tr>
+                                                    <td width="190" style="vertical-align:top;">
+                                                        <p>NATHAN ZAHEF</p>
+                                                    </td>
+                                                    <td width="190" style="vertical-align:top;padding-left:15px;padding-right:15px;">
+                                                        <p>NETSH</p>
+                                                    </td>
+                                                    <td width="190" style="vertical-align:top;">
+                                                        <p>PASTEUR CHARLES</p>
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                            <table align="center" width="600" class="resident-links">
+                                                <tr>
+                                                    <td width="190" style="vertical-align:top;">
+                                                        <table>
+                                                            <tr>
+                                                                <td style="padding-right:2px;">
+                                                                    <a href="https://soundcloud.com/nathanzahef" target="_blank"><img src="https://i.imgur.com/6FkFVSz.png" height="24"/></a>
+                                                                </td>
+                                                                <td>
+                                                                    <a href="https://youtu.be/1chPbV-cOKc" target="_blank"><img src="https://i.imgur.com/170hcG7.png" height="24"/></a>
+                                                                </td>
+                                                            </tr>
+                                                        </table>
+                                                    </td>
+                                                    <td width="190" style="vertical-align:top;padding-left:15px;padding-right:15px;">
+                                                        <table>
+                                                            <tr>
+                                                                <td>
+                                                                    <a href="https://www.facebook.com/netshmusic/" target="_blank"><img src="https://i.imgur.com/rZAO2w1.png" height="24"/></a>
+                                                                </td>
+                                                                <td style="padding-left:2px;padding-right:2px;">
+                                                                    <a href="https://soundcloud.com/netshmusic" target="_blank"><img src="https://i.imgur.com/6FkFVSz.png" height="24"/></a>
+                                                                </td>
+                                                                <td>
+                                                                    <a href="https://youtu.be/V16Kl9_pI_s" target="_blank"><img src="https://i.imgur.com/170hcG7.png" height="24"/></a>
+                                                                </td>
+                                                            </tr>
+                                                        </table>
+                                                    </td>
+                                                    <td width="190" style="vertical-align:top;">
+                                                        <table>
+                                                            <tr>
+                                                                <td>
+                                                                    <a href="https://www.facebook.com/PasteurCharles666/" target="_blank"><img src="https://i.imgur.com/rZAO2w1.png" height="24"/></a>
+                                                                </td>
+                                                                <td style="padding-left:2px;padding-right:2px;">
+                                                                    <a href="https://soundcloud.com/pasteurcharles" target="_blank"><img src="https://i.imgur.com/6FkFVSz.png" height="24"/></a>
+                                                                </td>
+                                                                <td>
+                                                                    <a href="https://youtu.be/r6VY2uqmO4Q" target="_blank"><img src="https://i.imgur.com/170hcG7.png" height="24"/></a>
+                                                                </td>
+                                                            </tr>
+                                                        </table>
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                            <table align="center" width="600" class="resident-crew">
+                                                <tr>
+                                                    <td width="205" style="vertical-align:top">
+                                                        <p>—<br>La Forge<br>Lune<br>Outrun</p>
+                                                    </td>
+                                                    <td width="205" style="vertical-align:top">
+                                                        <p>—<br>Chineurs de Techno<br>Lunar Limited<br>Longway<br>Bipolar Disorder</p>
+                                                    </td>
+                                                    <td width="190" style="vertical-align:top">
+                                                        <p>—<br>Le Turc Mécanique<br>Magic Dancer</p>
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                </table>
+                                <!-- / LIGNE 3 -->
+                                
+                                <!-- LIGNE 4 -->
+                                <table align="center">
+                                    <tr>
+                                        <td>
+                                            <table align="center" width="600" class="resident">
+                                                <tr>
+                                                    <td width="190">
+                                                        <img src="https://i.imgur.com/cIyC9OH.png" />
+                                                    </td>
+                                                    <td width="190" style="vertical-align:top;padding-left:15px;padding-right:15px;">
+                                                        <img src="https://i.imgur.com/NJIBkYI.png" />
+                                                    </td>
+                                                    <td width="190">
+                                                        <img src="https://i.imgur.com/eTYWueF.png" />
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                            <table align="center" width="600" class="resident-name">
+                                                <tr>
+                                                    <td width="190" style="vertical-align:top;">
+                                                        <p>PUZUPUZU</p>
+                                                    </td>
+                                                    <td width="190" style="vertical-align:top;padding-left:15px;padding-right:15px;">
+                                                        <p>SECURITY</p>
+                                                    </td>
+                                                    <td width="190" style="vertical-align:top;">
+                                                        <p>SINA</p>
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                            <table align="center" width="600" class="resident-links">
+                                                <tr>
+                                                    <td width="190" style="vertical-align:top;">
+                                                        <table>
+                                                            <tr>
+                                                                <td>
+                                                                    <a href="https://www.facebook.com/puzupuzux2/" target="_blank"><img src="https://i.imgur.com/rZAO2w1.png" height="24"/></a>
+                                                                </td>
+                                                                <td style="padding-left:2px;padding-right:2px;">
+                                                                    <a href="https://soundcloud.com/puzupuzu" target="_blank"><img src="https://i.imgur.com/6FkFVSz.png" height="24"/></a>
+                                                                </td>
+                                                                <td>
+                                                                    <a href="https://youtu.be/9wgtInQERa0" target="_blank"><img src="https://i.imgur.com/170hcG7.png" height="24"/></a>
+                                                                </td>
+                                                            </tr>
+                                                        </table>
+                                                    </td>
+                                                    <td width="190" style="vertical-align:top;padding-left:15px;padding-right:15px;">
+                                                        <table>
+                                                            <tr>
+                                                                <td>
+                                                                    <a href="https://www.facebook.com/securit.808/" target="_blank"><img src="https://i.imgur.com/rZAO2w1.png" height="24"/></a>
+                                                                </td>
+                                                                <td style="padding-left:2px;padding-right:2px;">
+                                                                    <a href="https://soundcloud.com/user-286667862" target="_blank"><img src="https://i.imgur.com/6FkFVSz.png" height="24"/></a>
+                                                                </td>
+                                                                <td>
+                                                                    <a href="https://www.mixcloud.com/RinseFrance/azf-friends-azf-invite-security-dj-5-octobre-2017/" target="_blank"><img src="https://i.imgur.com/170hcG7.png" height="24"/></a>
+                                                                </td>
+                                                            </tr>
+                                                        </table>
+                                                    </td>
+                                                    <td width="190" style="vertical-align:top;">
+                                                        <table>
+                                                            <tr>
+                                                                <td>
+                                                                    <a href="https://www.facebook.com/sssiiinnnaaa/" target="_blank"><img src="https://i.imgur.com/rZAO2w1.png" height="24"/></a>
+                                                                </td>
+                                                                <td style="padding-left:2px;">
+                                                                    <a href="https://www.mixcloud.com/RinseFrance/qui-embrouille-qui-avec-marcorosso-sina-25-janvier-2018/" target="_blank"><img src="https://i.imgur.com/170hcG7.png" height="24"/></a>
+                                                                </td>
+                                                            </tr>
+                                                        </table>
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                            <table align="center" width="600" class="resident-crew">
+                                                <tr>
+                                                    <td width="205" style="vertical-align:top">
+                                                        <p>—<br>Highlife<br>Hylé Tapes<br>AB Records<br>Celebration Tapes</p>
+                                                    </td>
+                                                    <td width="205" style="vertical-align:top">
+                                                        <p>—<br>D.Ko<br>Play Like The Cops Are Waiting Outside<br>Villette 45</p>
+                                                    </td>
+                                                    <td width="190" style="vertical-align:top">
+                                                        <p>—<br>Subtyl<br> Musique Pour La Danse</p>
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                </table>
+                                <!-- / LIGNE 4 -->
+                                
+                                <!-- LIGNE 5 -->
+                                <table align="center" width="600">
+                                    <tr>
+                                        <td>
+                                            <table align="center" width="600" class="resident">
+                                                <tr>
+                                                    <td width="190">
+                                                        <img src="https://i.imgur.com/IAnGFAE.png" />
+                                                    </td>
+                                                    <td width="190" style="vertical-align:top;padding-left:15px;padding-right:15px;">
+                                                        <img src="https://i.imgur.com/QuFR7VZ.png" />
+                                                    </td>
+                                                    <td width="190">
+                                                        <img src="https://i.imgur.com/92NDVFH.png" />
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                            <table align="center" width="600" class="resident-name">
+                                                <tr>
+                                                    <td width="190" style="vertical-align:top;">
+                                                        <p>SOUL EDIFICE</p>
+                                                    </td>
+                                                    <td width="190" style="vertical-align:top;padding-left:15px;padding-right:15px;">
+                                                        <p>THÉO MULLER</p>
+                                                    </td>
+                                                    <td width="190" style="vertical-align:top;">
+                                                        <p>WALDMAN</p>
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                            <table align="center" width="600" class="resident-links">
+                                                <tr>
+                                                    <td width="190" style="vertical-align:top;">
+                                                        <table>
+                                                            <tr>
+                                                                <td>
+                                                                    <a href="https://www.facebook.com/TheRealSoulEdifice/" target="_blank"><img src="https://i.imgur.com/rZAO2w1.png" height="24"/></a>
+                                                                </td>
+                                                                <td style="padding-left:2px;padding-right:2px;">
+                                                                    <a href="https://soundcloud.com/therealsouledifice" target="_blank"><img src="https://i.imgur.com/6FkFVSz.png" height="24"/></a>
+                                                                </td>
+                                                                <td>
+                                                                    <a href="https://youtu.be/k6OnBk1FfJU" target="_blank"><img src="https://i.imgur.com/170hcG7.png" height="24"/></a>
+                                                                </td>
+                                                            </tr>
+                                                        </table>
+                                                    </td>
+                                                    <td width="190" style="vertical-align:top;padding-left:15px;padding-right:15px;">
+                                                        <table>
+                                                            <tr>
+                                                                <td>
+                                                                    <a href="https://www.facebook.com/theomullerrr/" target="_blank"><img src="https://i.imgur.com/rZAO2w1.png" height="24"/></a>
+                                                                </td>
+                                                                <td style="padding-left:2px;padding-right:2px;">
+                                                                    <a href="https://soundcloud.com/theomuller" target="_blank"><img src="https://i.imgur.com/6FkFVSz.png" height="24"/></a>
+                                                                </td>
+                                                                <td>
+                                                                    <a href="https://youtu.be/2xS2qrcZfW4" target="_blank"><img src="https://i.imgur.com/170hcG7.png" height="24"/></a>
+                                                                </td>
+                                                            </tr>
+                                                        </table>
+                                                    </td>
+                                                    <td width="190" style="vertical-align:top;">
+                                                        <table>
+                                                            <tr>
+                                                                <td>
+                                                                    <a href="https://www.facebook.com/leonardWaldman/" target="_blank"><img src="https://i.imgur.com/rZAO2w1.png" height="24"/></a>
+                                                                </td>
+                                                                <td style="padding-left:2px;padding-right:2px;">
+                                                                    <a href="https://soundcloud.com/leonardwaldman" target="_blank"><img src="https://i.imgur.com/6FkFVSz.png" height="24"/></a>
+                                                                </td>
+                                                                <td>
+                                                                    <a href="https://youtu.be/JKyYtRc1fEA" target="_blank"><img src="https://i.imgur.com/170hcG7.png" height="24"/></a>
+                                                                </td>
+                                                            </tr>
+                                                        </table>
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                            <table align="center" width="600" class="resident-crew">
+                                                <tr>
+                                                    <td width="205" style="vertical-align:top">
+                                                        <p>—<br>Tripalium Corp<br>Vernacular</p>
+                                                    </td>
+                                                    <td width="205" style="vertical-align:top">
+                                                        <p>—<br>Midi Deux<br>Concrete Music</p>
+                                                    </td>
+                                                    <td width="190" style="vertical-align:top">
+                                                        <p>—<br>Lief<br>Boukan</p>
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                </table>
+                                <!-- / LIGNE 5 -->
+                                
                             </td>
                         </tr>
                     </table>
-                    <!-- / PUZUPUZU -->
                 </td>
             </tr>
         </table>
-        <!-- / CONTENT -->
-
-        <!-- CONFIRMED DATES -->
-        <table width="100%">
+        <!-- / SECTION 2 -->
+        
+        <!-- SECTION 3 -->
+        <table width="100%" class="section-black">
             <tr>
                 <td>
-
-                    <table align="center" width="600" class="dates-confirmed">
+                    <table align="center" width="620" style="margin-bottom:60px;">
                         <tr>
                             <td>
-                                <p>DATES CONFIRMÉES</p>
+                                <table align="center" width="600" class="section-black-title">
+                                    <tr>
+                                        <td>
+                                            <p>RINSE FRANCE</p>
+                                        </td>
+                                    </tr>
+                                </table>
+                                <table align="center" width="600" class="rinse-info">
+                                    <tr>
+                                        <td>
+                                            <p>Une fois par mois, la brigade Qui Embrouille Qui squattera les ondes de la webradio parisienne pour mettre en avant les résidents du projet !</p>
+                                        </td>
+                                    </tr>
+                                </table>
+                                <table align="center" width="600" class="rinse-play">
+                                    <tr>
+                                        <td>
+                                            <a href="https://www.mixcloud.com/RinseFrance/qui-embrouille-qui-avec-marcorosso-sina-25-janvier-2018/" target="_blank"><img src="https://i.imgur.com/V3vdj5z.png" /></a>
+                                        </td>
+                                    </tr>
+                                </table>
                             </td>
                         </tr>
                     </table>
-                    
-                    <!-- DATE - TSC -->
-                    <table align="center" width='590' class="dates-section">
+                </td>
+            </tr>
+        </table>
+        <!-- / SECTION 3 -->
+        
+        <!-- SECTION 3 -->
+        <table width="100%" class="section-white">
+            <tr>
+                <td>
+                    <table align="center" width="620" style="margin-bottom:60px;">
                         <tr>
                             <td>
-                                <table class="dates-title">
+                                <table align="center" width="600" class="section-white-title">
                                     <tr>
                                         <td>
-                                            <p>TOO SMOOTH CHRIST - DJ & LIVE PA</p>
+                                            <p>LE FESTIVAL</p>
+                                        </td>
+                                    </tr>
+                                </table>
+                                <table align="center" width="600" class="festival-date">
+                                    <tr>
+                                        <td>
+                                            <p>Deuxième Édition</p>
+                                            <p>09, 10 & 11 Août 2018</p>
+                                            <p>La Station - Gare des Mines</p>
+                                        </td>
+                                    </tr>
+                                </table>
+                                <table align="center" width="600" class="festival-report">
+                                    <tr>
+                                        <td>
+                                            <a href="https://youtu.be/2JSgh0cR55A" target="_blank"><img src="https://i.imgur.com/nZdI2Co.gif" /></a>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </table>
+        <!-- / SECTION 3 -->
+        
+        <!-- SECTION 4 -->
+        <table width="100%" class="section-black">
+            <tr>
+                <td>
+                    <table align="center" width="620" style="margin-bottom:60px;">
+                        <tr>
+                            <td>
+                                <table align="center" width="600" class="section-black-title">
+                                    <tr>
+                                        <td>
+                                            <p>QUI EMBROUILLE QUI<br>ON TOUR</p>
+                                        </td>
+                                    </tr>
+                                </table>
+                                <table align="center" width="600" class="rinse-info">
+                                    <tr>
+                                        <td>
+                                            <p>Avant la deuxième édition du festival, tout le crew prendra les routes de France avec l'ambition de défendre cette vision sans frontière, ni clivage de la club culture et de la scène électronique actuelle.</p>
+                                            <p style='margin-top:45px;font-style:italic;text-transform:uppercase;'>Curated by AZF</p>
                                         </td>
                                     </tr>
                                 </table>
@@ -543,40 +813,47 @@
                                             <table class="dates-content">
                                                 <tr>
                                                     <td width="75">
-                                                        <p>24.02</p>
+                                                        <p>01.03</p>
                                                     </td>
                                                     <td>
-                                                        <p>LIVE / <span style="text-transform:capitalize;">Astropolis Hiver 2018 @ La Suite (Brest, FR)</span></p>
+                                                        <p><span style="text-transform:capitalize;">Lancement Qui Embrouille Qui (Paris, FR)</span></p>
                                                     </td>
                                                 </tr>
                                             </table>
                                             <table class="dates-content">
                                                 <tr>
                                                     <td width="75">
-                                                        <p>02.03</p>
+                                                        <p>16.03</p>
                                                     </td>
                                                     <td>
-                                                        <p>LIVE / <span style="text-transform:capitalize;">Nova Mix Club @ Badaboum (Paris, FR)</span></p>
+                                                        <p><span style="text-transform:capitalize;">Le 101 (Clermont-Ferrand, FR)</span></p>
                                                     </td>
                                                 </tr>
                                             </table>
                                             <table class="dates-content">
                                                 <tr>
                                                     <td width="75">
-                                                        <p>13.04</p>
+                                                        <p>18.05</p>
                                                     </td>
                                                     <td>
-                                                        <p>DJ / <span style="text-transform:capitalize;">Nuits de La Filature 2018 (Lille, FR)</span></p>
+                                                        <p><span style="text-transform:capitalize;">LNVRS Club (Nancy, FR)</span></p>
                                                     </td>
                                                 </tr>
                                             </table>
                                             <table class="dates-content">
                                                 <tr>
-                                                    <td width="75">
-                                                        <p>22.06<br>23.06</p>
+                                                    <td width="75" style='vertical-align:top;'>
+                                                        <p>09, 10 & 11.08</p>
                                                     </td>
-                                                    <td>
-                                                        <p>LIVE / <span style="text-transform:capitalize;">Sismo 2018 by Jalib (Lyon, FR)</span></p>
+                                                    <td style='vertical-align:top;'>
+                                                        <p>FESTIVAL #02 - <span style="text-transform:capitalize;">La Station / Gare des Mines (Paris, FR)</span></p>
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                            <table class="dates-content">
+                                                <tr>
+                                                    <td style='vertical-align:top;'>
+                                                        <p>ET CE N'EST QUE LE DÉBUT !</p>
                                                     </td>
                                                 </tr>
                                             </table>
@@ -586,39 +863,45 @@
                             </td>
                         </tr>
                     </table>
-                    <!-- / DATE - TSC -->
-                    
-                    <!-- DATE - LABAT -->
-                    <table align="center" width='590' class="dates-section">
+                </td>
+            </tr>
+        </table>
+        <!-- / SECTION 4 -->
+        
+        <!-- SECTION 5 -->
+        <table width="100%" class="section-white">
+            <tr>
+                <td>
+                    <table align="center" width="620">
                         <tr>
                             <td>
-                                <table class="dates-title">
+                                <table align="center" width="600" class="section-white-title">
                                     <tr>
                                         <td>
-                                            <p>LB AKA LABAT - DJ & LIVE PA</p>
+                                            <p>AZF<br>TOUR DATES</p>
                                         </td>
                                     </tr>
                                 </table>
                                 <table class="dates-container">
                                     <tr>
                                         <td>
+                                            <table class="dates-content">
+                                                <tr>
+                                                    <td width="75">
+                                                        <p>02.02</p>
+                                                    </td>
+                                                    <td>
+                                                        <p><span style="text-transform:capitalize;">Cargo de Nuit (Arles, FR)</span></p>
+                                                    </td>
+                                                </tr>
+                                            </table>
                                             <table class="dates-content">
                                                 <tr>
                                                     <td width="75">
                                                         <p>03.02</p>
                                                     </td>
                                                     <td>
-                                                        <p>DJ / <span style="text-transform:capitalize;">Nouvelle résidence @ Capsule (Lyon, FR)</span></p>
-                                                    </td>
-                                                </tr>
-                                            </table>
-                                            <table class="dates-content">
-                                                <tr>
-                                                    <td width="75">
-                                                        <p>07.02</p>
-                                                    </td>
-                                                    <td>
-                                                        <p>DJ / <span style="text-transform:capitalize;">Ho 36 (Menuires, FR)</span></p>
+                                                        <p><span style="text-transform:capitalize;">Magazine Club (Lille, FR)</span></p>
                                                     </td>
                                                 </tr>
                                             </table>
@@ -628,17 +911,17 @@
                                                         <p>09.02</p>
                                                     </td>
                                                     <td>
-                                                        <p>DJ / <span style="text-transform:capitalize;">Mauke (Wuppertal, DE)</span></p>
+                                                        <p><span style="text-transform:capitalize;">Priz'unique @ La Passerelle (Saint-Brieuc, FR)</span></p>
                                                     </td>
                                                 </tr>
                                             </table>
                                             <table class="dates-content">
                                                 <tr>
-                                                    <td width="75">
-                                                        <p>16.02</p>
+                                                    <td width="75" style='vertical-align:top;'>
+                                                        <p>10.02</p>
                                                     </td>
-                                                    <td>
-                                                        <p>DJ / <span style="text-transform:capitalize;">Le Diskret (Lyon, FR)</span></p>
+                                                    <td style='vertical-align:top;'>
+                                                        <p>ALL NIGHT LONG - <span style="text-transform:capitalize;">Dada Temple @ La Machine du Moulin Rouge (Paris, FR)</span></p>
                                                     </td>
                                                 </tr>
                                             </table>
@@ -648,79 +931,47 @@
                                                         <p>17.02</p>
                                                     </td>
                                                     <td>
-                                                        <p>DJ / <span style="text-transform:capitalize;">Wolf Music Release Party @ Five Miles (Londres, UK)</span></p>
+                                                        <p><span style="text-transform:capitalize;">Electropicales 2018 - Le Club (La Réunion, FR)</span></p>
                                                     </td>
                                                 </tr>
                                             </table>
                                             <table class="dates-content">
                                                 <tr>
                                                     <td width="75">
-                                                        <p>23.03</p>
+                                                        <p>24.02</p>
                                                     </td>
                                                     <td>
-                                                        <p>DJ / <span style="text-transform:capitalize;">Résidence x Wolf Music Release Party @ Groom (Lyon, FR)</span></p>
+                                                        <p><span style="text-transform:capitalize;">Le Zoo - Usine (Genève, CH)</span></p>
                                                     </td>
                                                 </tr>
                                             </table>
                                             <table class="dates-content">
                                                 <tr>
                                                     <td width="75">
-                                                        <p>15.06</p>
+                                                        <p>10.03</p>
                                                     </td>
                                                     <td>
-                                                        <p>LIVE / <span style="text-transform:capitalize;">Open Minded Party @ Glazart (Paris, FR)</span></p>
-                                                    </td>
-                                                </tr>
-                                            </table>
-                                        </td>
-                                    </tr>
-                                </table>
-                            </td>
-                        </tr>
-                    </table>
-                    <!-- / DATE - LABAT -->
-                    
-                    <!-- DATE - PUZPUZU -->
-                    <table align="center" width='590' class="dates-section">
-                        <tr>
-                            <td>
-                                <table class="dates-title">
-                                    <tr>
-                                        <td>
-                                            <p>Puzupuzu - DJ & LIVE PA</p>
-                                        </td>
-                                    </tr>
-                                </table>
-                                <table class="dates-container">
-                                    <tr>
-                                        <td>
-                                            <table class="dates-content">
-                                                <tr>
-                                                    <td width="75" style="vertical-align:top;">
-                                                        <p>01.02</p>
-                                                    </td>
-                                                    <td style="vertical-align:top;">
-                                                        <p>LIVE / <span style="text-transform:capitalize;">Auditions Inouïs du Printemps de Bourges @ Trabendo (Paris, FR)</span></p>
+                                                        <p><span style="text-transform:capitalize;">Concrete (Paris, FR)</span></p>
                                                     </td>
                                                 </tr>
                                             </table>
                                             <table class="dates-content">
                                                 <tr>
                                                     <td width="75">
-                                                        <p>03.02</p>
+                                                        <p>13.03</p>
                                                     </td>
                                                     <td>
-                                                        <p>DJ / <span style="text-transform:capitalize;">Dynamiterie x Mermaid Express @ Secret Place (Paris, FR)</span></p>
+                                                        <p><span style="text-transform:capitalize;">Apero BPM @ Point Ephémère (Paris, FR)</span></p>
                                                     </td>
                                                 </tr>
                                             </table>
                                             <table class="dates-content">
                                                 <tr>
-                                                    <td width="75" style="vertical-align:top;">
-                                                        <p>09.02</p>
+                                                    <td width="75">
+                                                        <p>24.03</p>
                                                     </td>
-                                                    <td style="vertical-align:top;">
-                                                        <p>LIVE / <span style="text-transform:capitalize;">Open Minded Party  w/ Acid Arab @ La Machine du Moulin Rouge (Paris, FR)</span></p>
+                                                    <td>
+                                                        <p><span style="text-transform:capitalize;">Les Îlots Électroniques (Tours, FR)</span></p>
                                                     </td>
                                                 </tr>
                                             </table>
@@ -730,7 +981,147 @@
                                                         <p>11.05</p>
                                                     </td>
                                                     <td>
-                                                        <p>LIVE / <span style="text-transform:capitalize;">Les Traversées Sonores 2018 (Granville, FR)</span></p>
+                                                        <p><span style="text-transform:capitalize;">Nuits Sonores 2018 (Lyon, FR)</span></p>
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                            <table class="dates-content">
+                                                <tr>
+                                                    <td width="75">
+                                                        <p>12.05</p>
+                                                    </td>
+                                                    <td>
+                                                        <p><span style="text-transform:capitalize;">Rock'n Solex 2018 (Rennes, FR)</span></p>
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                            <table class="dates-content">
+                                                <tr>
+                                                    <td width="75">
+                                                        <p>26.05</p>
+                                                    </td>
+                                                    <td>
+                                                        <p><span style="text-transform:capitalize;">Flashforward (Charleroi, BE)</span></p>
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                            <table class="dates-content">
+                                                <tr>
+                                                    <td width="75">
+                                                        <p>07.07</p>
+                                                    </td>
+                                                    <td>
+                                                        <p><span style="text-transform:capitalize;">Electrobotik Invasion 2018 (Bagnols-Sur-Cèze, FR)</span></p>
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                            <table class="dates-content">
+                                                <tr>
+                                                    <td width="75">
+                                                        <p>12.07</p>
+                                                    </td>
+                                                    <td>
+                                                        <p><span style="text-transform:capitalize;">Dour Festival 2018 (Dour, BE)</span></p>
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                            <table class="dates-content">
+                                                <tr>
+                                                    <td width="75">
+                                                        <p>17.08</p>
+                                                    </td>
+                                                    <td>
+                                                        <p><span style="text-transform:capitalize;">Octov (Montréal, CA)</span></p>
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                            <table class="dates-content">
+                                                <tr>
+                                                    <td width="75">
+                                                        <p>19.08</p>
+                                                    </td>
+                                                    <td>
+                                                        <p><span style="text-transform:capitalize;">Piknic Électronik (Montreal, CA)</span></p>
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                </table>
+                                <table align="center" width="600" class="booking">
+                                    <tr>
+                                        <td>
+                                            <table align='center' class='booking-contact'>
+                                                <tr>
+                                                    <td>
+                                                        <p>Pour toute demande de bookings d'<br>AZF et Qui Embrouille Qui, veuillez contacter :</p>
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                            <table align='center' class="booking-name">
+                                                <tr>
+                                                    <td>
+                                                        <p>Micky FARIA</p>
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                            <table align='center' class="booking-adress">
+                                                <tr>
+                                                    <td>
+                                                        <p><a href="mailto:micky@voodooartists.com" style="color:#000;text-decoration:underline;">micky@voodooartists.com</a></p>
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                </table>
+                                <table align="center" width="600" class="footer">
+                                    <tr>
+                                        <td>
+                                            <table align='center'>
+                                                <tr>
+                                                    <td>
+                                                        <img height="18" src="https://i.imgur.com/TDqYNmV.png" />
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                            <table align="center" class="footer-roster">
+                                                <tr>
+                                                    <td>
+                                                        <p class="roster-title">France</p>
+                                                        <p class="roster">AZF - Agents Of Time - Audion - Clouds - Headstrong - Job Jobse<br>
+                                                            Lanark Artefax - Low Jack - Matthew Dear - Makam - Mind Against - Project Pablo<br>
+                                                            Rainforest Spiritual Enslavement - Randomer - Shanti Celeste<br>Tale Of Us - Talismann - Too Smooth Christ - Zaltan</p>
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                            <table align="center" class="footer-roster">
+                                                <tr>
+                                                    <td>
+                                                        <p class="roster-title">Worldwide</p>
+                                                        <p class="roster">D.K. - Epsilove - Geena - Judaah<br>
+                                                            J-Zbel - LB aka LABAT - Nathan Melja - Neue Grafik - Puzupuzu<br>
+                                                            Raheem Experience - Sama' - Simo Cell - The Pilotwings</p>
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                            <table align="center" width="600" class="footer-links-wrapper">
+                                                <tr>
+                                                    <td>
+                                                        <table align="center" class="footer-links">
+                                                            <tr>
+                                                                <td>
+                                                                    <p><a href="https://www.facebook.com/vdartists/" target="_blank">FACEBOOK</a> - <a href="https://twitter.com/voodoobookings" target="_blank">TWITTER</a> - <a href="mailto:micky@voodooartists.com">CONTACT</a></p>
+                                                                </td>
+                                                            </tr>
+                                                        </table>
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                            <table align="center" width="600" class="footer-unsubscribe">
+                                                <tr>
+                                                    <td>
+                                                        <p><a href="[[UNSUB_LINK_FR]]" style="text-decoration:underline;color:#000;">Désinscription</a></p>
                                                     </td>
                                                 </tr>
                                             </table>
@@ -740,95 +1131,9 @@
                             </td>
                         </tr>
                     </table>
-                    <!-- / DATE - PUZPUZU -->
-                    
-                    <table align="center" width="600" class="booking">
-                        <tr>
-                            <td>
-                                <table align='center' class='booking-contact'>
-                                    <tr>
-                                        <td>
-                                            <p>Pour toute demande de bookings de<br>Too Smooth Christ, LB aka LABAT et Puzupuzu, veuillez contacter :</p>
-                                        </td>
-                                    </tr>
-                                </table>
-                                <table align='center' class="booking-name">
-                                    <tr>
-                                        <td>
-                                            <p>MARC RESPLANDY</p>
-                                        </td>
-                                    </tr>
-                                </table>
-                                <table align='center' class="booking-adress">
-                                    <tr>
-                                        <td>
-                                            <p><a href="mailto:marc@voodoobookings.com" style="color:#000;text-decoration:underline;">marc@voodoobookings.com</a></p>
-                                        </td>
-                                    </tr>
-                                </table>
-                            </td>
-                        </tr>
-                    </table>
-                    
                 </td>
             </tr>
         </table>
-        <!-- / CONFIRMED DATES -->
-        
-        <!-- FOOTER -->
-        <table align="center" width="600" class="footer">
-            <tr>
-                <td>
-                    <table align='center'>
-                        <tr>
-                            <td>
-                                <img height="18" src="https://i.imgur.com/TDqYNmV.png" />
-                            </td>
-                        </tr>
-                    </table>
-                    <table align="center" class="footer-roster">
-                        <tr>
-                            <td>
-                                <p class="roster-title">France</p>
-                                <p class="roster">AZF - Agents Of Time - Audion - Clouds - Headstrong - Job Jobse<br>
-                                    Lanark Artefax - Low Jack - Matthew Dear - Makam - Mind Against - Project Pablo<br>
-                                    Rainforest Spiritual Enslavement - Randomer - Shanti Celeste<br>Tale Of Us - Talismann - Too Smooth Christ - Zaltan</p>
-                            </td>
-                        </tr>
-                    </table>
-                    <table align="center" class="footer-roster">
-                        <tr>
-                            <td>
-                                <p class="roster-title">Worldwide</p>
-                                <p class="roster">D.K. - Epsilove - Geena - Judaah<br>
-                                    J-Zbel - LB aka LABAT - Nathan Melja - Neue Grafik - Puzupuzu<br>
-                                    Raheem Experience - Sama' - Simo Cell - The Pilotwings</p>
-                            </td>
-                        </tr>
-                    </table>
-                    <table align="center" width="600" class="footer-links-wrapper">
-                        <tr>
-                            <td>
-                                <table align="center" class="footer-links">
-                                    <tr>
-                                        <td>
-                                            <p><a href="https://www.facebook.com/vdartists/" target="_blank" style="color:#000;">FACEBOOK</a> - <a href="https://twitter.com/voodoobookings" target="_blank" style="color:#000;">TWITTER</a> - <a href="mailto:micky@voodooartists.com" style="color:#000;">CONTACT</a></p>
-                                        </td>
-                                    </tr>
-                                </table>
-                            </td>
-                        </tr>
-                    </table>
-                    <table align="center" width="600" class="footer-unsubscribe">
-                        <tr>
-                            <td>
-                                <p><a href="[[UNSUB_LINK_FR]]" style="text-decoration:underline;color:#000;">Désinscription</a></p>
-                            </td>
-                        </tr>
-                    </table>
-                </td>
-            </tr>
-        </table>
-        <!-- / FOOTER -->
+        <!-- / SECTION 5 -->
     </body>
 </html>
